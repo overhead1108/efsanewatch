@@ -135,7 +135,7 @@ function App() {
       {/* HEADER */}
       <header className="header" style={{ padding: "1rem 5%" }}>
         <div className="logo" onClick={handleBack}>
-          <img src="/logo.png" alt="efsanewatch" style={{ height: "75px", objectFit: "contain" }} />
+          <img src="./logo.png" alt="efsanewatch" style={{ height: "75px", objectFit: "contain" }} />
         </div>
       </header>
 
