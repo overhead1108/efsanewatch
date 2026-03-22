@@ -40,7 +40,7 @@ function App() {
             const data = await res.json();
 
             if (data.data && data.data.length > 0) {
-              const coverUrl = data.data[0].images.jpg.large_image_url;
+              const coverUrl = data.data[0].images.jpg.image_url;
               newCovers[anime.id] = coverUrl;
               localStorage.setItem(cacheKey, coverUrl);
               updated = true;
