@@ -65,6 +65,14 @@
                   "name": "Bölüm 1",
                   "url": "https://voe.sx/lw8blkkvaqrq",
                   "type": "voe"
+                },
+                {
+                 "number": 2,
+                 "sources": [
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://drive.google.com/file/d/1ivOSdr-Vad5cK0OdX_MG5wUEk0eDumdb/preview",
+                  "type": "gdrive"
                 }
               ]
             }
