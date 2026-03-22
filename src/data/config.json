@@ -119,17 +119,17 @@
               "number": 2,
               "sources": [
                 {
-                  "name": "Bölüm 1",
+                  "name": "Bölüm 2",
                   "url": "https://drive.google.com/file/d/1zpPVnfck0PHRl8b3fTERHaKSWd8yzEHZ/preview",
                   "type": "gdrive"
                 },
                 {
-                  "name": "Bölüm 1",
+                  "name": "Bölüm 2",
                   "url": "https://video.sibnet.ru/video6151726",
                   "type": "sibnet"
                 },
                 {
-                  "name": "Bölüm 1",
+                  "name": "Bölüm 2",
                   "url": "https://voe.sx/joa8uq6dgqzh",
                   "type": "voe"
                 }
@@ -139,17 +139,17 @@
               "number": 3,
               "sources": [
                 {
-                  "name": "Bölüm 1",
+                  "name": "Bölüm 3",
                   "url": "https://drive.google.com/file/d/1DOwO5tOwrG_WBDXYRKi9DnIo_6uoWHQb/preview",
                   "type": "gdrive"
                 },
                 {
-                  "name": "Bölüm 1",
+                  "name": "Bölüm 3",
                   "url": "https://video.sibnet.ru/video6152628",
                   "type": "sibnet"
                 },
                 {
-                  "name": "Bölüm 1",
+                  "name": "Bölüm 3",
                   "url": "https://voe.sx/vteulsajyuvb",
                   "type": "voe"
                 }
@@ -162,6 +162,11 @@
                   "name": "Bölüm 4",
                   "url": "https://drive.google.com/file/d/1SKAOfaY1cV4iDp1pfG5XBtopQny9igUi/preview",
                   "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 4",
+                  "url": "https://voe.sx/j0ijpzayntq2",
+                  "type": "voe"
                 }
               ]
             }
