@@ -66,10 +66,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #cdffd8 0%, #94b9ff 100%);
+  background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  animation: shine 4s linear infinite;
+  display: inline-block;
+}
+
+@keyframes shine {
+  0% { background-position: 0% center; }
+  100% { background-position: -200% center; }
+}
+
+.anime-mode .text-gradient {
+  background-image: linear-gradient(90deg, #cdffd8 0%, #94b9ff 25%, #cdffd8 50%, #94b9ff 75%, #cdffd8 100%);
+}
+
+.manga-mode .text-gradient {
+  background-image: linear-gradient(90deg, #fff7ad 0%, #ffa9f9 25%, #fff7ad 50%, #ffa9f9 75%, #fff7ad 100%);
+}
+
+/* Dynamic Accents */
+.anime-mode {
+  --accent-color: #6366f1;
+  --accent-hover: #4f46e5;
+  --accent-glow: rgba(99, 102, 241, 0.4);
+}
+
+.manga-mode {
+  --accent-color: #ffa9f9;
+  --accent-hover: #f472b6;
+  --accent-glow: rgba(255, 169, 249, 0.4);
 }
 
 /* Layout */
@@ -254,6 +282,23 @@ h1, h2, h3, h4, h5, h6 {
 
 .detail-title {
   font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.anime-titles {
+  margin-bottom: 1.5rem;
+}
+
+.detail-info .anime-title-en {
+  font-size: 1.2rem;
+}
+
+.detail-info .anime-title-jp {
+  font-size: 1rem;
+}
+
+.detail-info .anime-tags {
+  margin-bottom: 1.5rem;
 }
 
 .detail-desc {
@@ -277,6 +322,45 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+.episodes-section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  margin-bottom: 1.5rem;
+  color: var(--text-secondary);
+  font-size: 1.25rem;
+}
+
+.episodes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.episode-btn {
+  padding: 0.8rem 1.6rem;
+  background: var(--bg-glass);
+  color: var(--text-primary);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-weight: 600;
+  transition: all var(--transition-fast);
+}
+
+.episode-btn:hover {
+  background: rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.episode-btn.active {
+  background: var(--accent-color);
+  border-color: var(--accent-hover);
+  box-shadow: 0 4px 15px var(--accent-glow);
 }
 
 /* Selection Menus */
@@ -360,29 +444,133 @@ h1, h2, h3, h4, h5, h6 {
   100% { transform: rotate(360deg); }
 }
 
+.mode-toggle {
+  display: flex;
+  background: var(--bg-secondary);
+  padding: 0.3rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-glass);
+}
+
+.mode-btn {
+  padding: 0.8rem 2rem;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-normal);
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+  text-transform: lowercase;
+}
+
+.mode-btn.active {
+  color: white;
+  background-size: 200% auto;
+  animation: shine 4s linear infinite;
+  box-shadow: 0 4px 20px var(--accent-glow);
+}
+
+.anime-mode .mode-btn.active {
+  background-image: linear-gradient(90deg, #7c9cf8 0%, #94b9ff 25%, #7c9cf8 50%, #94b9ff 75%, #7c9cf8 100%);
+}
+
+.manga-mode .mode-btn.active {
+  background-image: linear-gradient(90deg, #ffa9f9 0%, #fff7ad 25%, #ffa9f9 50%, #fff7ad 75%, #ffa9f9 100%);
+}
+
+/* Ensure accents are used everywhere */
+.tag {
+  background: var(--accent-glow);
+  color: var(--text-primary);
+  border: 1px solid var(--border-glass);
+}
+
+.episode-btn.active {
+  background: var(--accent-color);
+  box-shadow: 0 4px 15px var(--accent-glow);
+}
+
+.manga-viewer {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background: #000;
+  border-radius: var(--radius-lg);
+  padding: 1rem;
+  border: 1px solid var(--border-glass);
+}
+
+.manga-pages {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.manga-page-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
 @media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    height: auto;
+  }
+  
+  .mode-toggle {
+    width: 100%;
+  }
+  
+  .mode-btn {
+    flex: 1;
+    padding: 0.8rem;
+  }
+
   .main-content {
     padding: 1.5rem 5%;
   }
 
   .detail-header {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1.5rem;
+    align-items: stretch;
+    text-align: left;
+    gap: 2rem;
   }
   
   .detail-cover {
-    width: 65%;
-    max-width: 200px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
   .detail-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    text-align: center;
   }
 
-  .detail-tags {
+  .detail-info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .anime-titles {
+    align-items: center;
+  }
+
+  .anime-tags {
     justify-content: center;
+  }
+  
+  .detail-desc {
+    text-align: left;
+    padding: 0 0.5rem;
   }
   
   .selection-row {

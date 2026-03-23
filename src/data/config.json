@@ -33,7 +33,7 @@
           ]
         }
       ],
-      "titleEnglish": "Lelouch of the Rebellion",
+      "titleEnglish": "Code Geass: Rozé of the Recapture",
       "titleNative": "コードギアス 奪還のロゼ"
     },
     {
@@ -919,6 +919,35 @@
       ],
       "titleEnglish": "There was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her",
       "titleNative": "勇者パーティーにかわいい子がいたので、告白してみた。"
+    }
+  ],
+  "mangas": [
+    {
+      "id": "blue-lock",
+      "searchTitle": "Blue Lock",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx106130-yPNeuSu75ey1.jpg",
+      "title": "Blue Lock",
+      "titleEnglish": "Blue Lock",
+      "titleNative": "ブルーロック",
+      "description": "Japonya'nın efsanevi bir golcüye olan ihtiyacı, radikal bir projeyi doğurur: Mavi Kilit. 300 yetenekli genç forvet, aşırı rekabetçi bir tesiste bir araya getirilir ve sadece bir tanesi dünyanın en iyisi olmak için sağ çıkacaktır. Futbolun ötesinde, bir hayatta kalma draması.",
+      "tags": [
+        "Aksiyon",
+        "Spor",
+        "Dram"
+      ],
+      "chapters": [
+        {
+          "number": 340,
+          "name": "Bölüm 340",
+          "pages": [
+            "bluelock340/1.jpeg",
+            "bluelock340/2.jpeg",
+            "bluelock340/3.jpeg",
+            "bluelock340/4.jpeg",
+            "bluelock340/5.jpeg"
+          ]
+        }
+      ]
     }
   ]
 }
