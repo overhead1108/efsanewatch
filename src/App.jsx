@@ -300,8 +300,8 @@ function App() {
     {/* MANGA NAV BAR - Outside app-container for fixed positioning */}
     {viewMode === 'manga' && selectedItem && selectedChapter && (
       <div className={`manga-nav-bar ${viewMode}-mode`}>
-        <div style={{ fontSize: "1.1rem", fontWeight: "700" }}>
-          {selectedChapter.number}.Bölüm <span className="text-gradient">{selectedChapter.pages.length}/{selectedChapter.pages.length}</span> (Sayfa)
+        <div style={{ fontSize: "1.1rem", fontWeight: "800", letterSpacing: "0.5px" }}>
+          {selectedChapter.number}. Bölüm
         </div>
         
         {mangaEndReached && (
