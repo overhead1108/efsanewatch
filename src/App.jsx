@@ -88,7 +88,7 @@ function App() {
   return (
     <div className={`app-container ${viewMode}-mode`}>
       {/* HEADER */}
-      <header className="header" style={{ padding: "1rem 5%" }}>
+      <header className="header">
         <div key={viewMode} className="logo shadow-in" onClick={handleBack}>
           <span className="logo-text text-gradient">
             {viewMode === 'manga' ? 'efsanemanga' : 'efsanewatch'}
@@ -116,24 +116,24 @@ function App() {
       <main className="main-content">
         {!selectedItem ? (
           /* GRID VIEW */
-          <div>
-            <h1 style={{ marginBottom: "0.5rem", fontSize: "2rem" }}>
-              En Yeni <span className="text-gradient">{viewMode === 'anime' ? 'Bölümler' : 'Mangalar'}</span>
-            </h1>
-            <p className="text-muted" style={{ marginBottom: "1.5rem" }}>
-              Aradığınız seriyi seçerek {viewMode === 'anime' ? 'bölümlere' : 'okumaya'} ulaşabilirsiniz.
-            </p>
-
-            <div className="search-container" style={{ marginBottom: "2rem" }}>
+          <div style={{ textAlign: "center", paddingTop: "2rem" }}>
+            <div className="search-container" style={{ marginBottom: "3rem", maxWidth: "600px", margin: "0 auto 3rem auto" }}>
               <input
                 type="text"
                 className="select-box"
-                style={{ width: "100%", padding: "1rem", backgroundImage: "none", fontSize: "1.1rem" }}
+                style={{ width: "100%", padding: "1.2rem", backgroundImage: "none", fontSize: "1.1rem" }}
                 placeholder={`${viewMode === 'anime' ? 'Anime' : 'Manga'} Ara...`}
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
             </div>
+
+            <h1 style={{ marginBottom: "0.5rem", fontSize: "2.5rem" }}>
+              En Yeni <span className="text-gradient">{viewMode === 'anime' ? 'Bölümler' : 'Mangalar'}</span>
+            </h1>
+            <p className="text-muted" style={{ marginBottom: "2rem", fontSize: "1.1rem" }}>
+              Aradığınız seriyi seçerek {viewMode === 'anime' ? 'bölümlere' : 'okumaya'} ulaşabilirsiniz.
+            </p>
 
             <div className="anime-grid">
               {items
@@ -267,7 +267,7 @@ function App() {
                     <button
                       key={chapter.number}
                       className={`episode-btn ${selectedChapter?.number === chapter.number ? 'active' : ''}`}
-                      onClick={() => setSelectedChapter(chapter)}
+                      onClick={() => { setSelectedChapter(chapter); window.scrollTo({ top: 600, behavior: 'smooth' }); }}
                     >
                       Bölüm {chapter.number}
                     </button>
@@ -286,6 +286,57 @@ function App() {
                           loading="lazy"
                         />
                       ))}
+                    </div>
+
+                    {/* MANGA NAVIGATION BAR */}
+                    <div className="manga-nav-bar" style={{ 
+                      marginTop: "2rem", 
+                      background: "rgba(0,0,0,0.8)", 
+                      padding: "1.5rem", 
+                      borderRadius: "var(--radius-md)", 
+                      display: "flex", 
+                      flexDirection: "column", 
+                      alignItems: "center", 
+                      gap: "1.5rem",
+                      border: "1px solid var(--border-glass)"
+                    }}>
+                      <div style={{ fontSize: "1.1rem", fontWeight: "700" }}>
+                        {selectedChapter.number}.Bölüm <span className="text-gradient">{selectedChapter.pages.length}/{selectedChapter.pages.length}</span> (Sayfa)
+                      </div>
+                      <div style={{ display: "flex", gap: "1rem" }}>
+                        {(() => {
+                          const chapters = selectedItem.chapters;
+                          const currentIndex = chapters.findIndex(c => c.number === selectedChapter.number);
+                          const nextChapter = chapters[currentIndex - 1]; // Chapters may be desc
+                          const prevChapter = chapters[currentIndex + 1];
+
+                          return (
+                            <>
+                              <button 
+                                className="episode-btn"
+                                disabled={!prevChapter}
+                                onClick={() => { if(prevChapter) setSelectedChapter(prevChapter); window.scrollTo({ top: 500, behavior: 'smooth' }); }}
+                              >
+                                [Önceki Bölüm]
+                              </button>
+                              
+                              <button 
+                                className="episode-btn active"
+                                onClick={() => {
+                                  if (nextChapter) {
+                                    setSelectedChapter(nextChapter);
+                                    window.scrollTo({ top: 500, behavior: 'smooth' });
+                                  } else {
+                                    alert("Son bölümdasınız!");
+                                  }
+                                }}
+                              >
+                                {nextChapter ? "[Sonraki Bölüm (Auto Skip)]" : "[Son Bölüm]"}
+                              </button>
+                            </>
+                          );
+                        })()}
+                      </div>
                     </div>
                   </div>
                 )}
