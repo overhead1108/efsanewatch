@@ -206,6 +206,36 @@
           ]
         }
       ]
+    },
+    {
+      "id": "eris-no-seihai",
+      "searchTitle": "Eris no Seihai",
+      "image": "https://cdn.myanimelist.net/images/anime/1066/142340.jpg",
+      "title": "Eris no Seihai (The Holy Grail of Eris)",
+      "description": "Samimi ve dürüst bir asilzade olan Connie, bir partide iftiraya uğrar. O sırada 10 yıl önce idam edilen 'Gökkuşağı Gözlü Kötü Kadın' Scarlett'in ruhuyla karşılaşır ve bir anlaşma yaparlar.",
+      "tags": [
+        "Dram",
+        "Gizem",
+        "Fantezi"
+      ],
+      "seasons": [
+        {
+          "name": "Sezon 1",
+          "episodes": [
+            { "number": 1, "sources": [{ "name": "Bölüm 1", "url": "https://drive.google.com/file/d/1UVurdAUhpOafTUs565moxByndUzPNkNw/preview", "type": "gdrive" }, { "name": "Bölüm 1", "url": "https://voe.sx/8p4ovjfyo1zz", "type": "voe" }] },
+            { "number": 2, "sources": [{ "name": "Bölüm 2", "url": "https://drive.google.com/file/d/1KYrTuW1RISsKDl6TvfvfcnqhxH4mX5YI/preview", "type": "gdrive" }, { "name": "Bölüm 2", "url": "https://voe.sx/wpg95bk1lvkh", "type": "voe" }] },
+            { "number": 3, "sources": [{ "name": "Bölüm 3", "url": "https://drive.google.com/file/d/1e51Zy-6kK2YzMbx6We-PZTp-YNThHFlz/preview", "type": "gdrive" }, { "name": "Bölüm 3", "url": "https://voe.sx/f6vfmamqf9sd", "type": "voe" }] },
+            { "number": 4, "sources": [{ "name": "Bölüm 4", "url": "https://drive.google.com/file/d/1yqdzxnFp0GwY2_x7iiBmGkykUWKgo1vT/preview", "type": "gdrive" }, { "name": "Bölüm 4", "url": "https://voe.sx/f6vfmamqf9sd", "type": "voe" }] },
+            { "number": 5, "sources": [{ "name": "Bölüm 5", "url": "https://drive.google.com/file/d/1Ii1nNfYS8BMO62fCwYVqs0y6FR_lRJWJ/preview", "type": "gdrive" }, { "name": "Bölüm 5", "url": "https://voe.sx/lg7wxrlc0jwi", "type": "voe" }] },
+            { "number": 6, "sources": [{ "name": "Bölüm 6", "url": "https://drive.google.com/file/d/1xULPp63EC11MMzrW9Lg0LJyk2THtLMmf/preview", "type": "gdrive" }, { "name": "Bölüm 6", "url": "https://voe.sx/5njl9fmsmuqi", "type": "voe" }] },
+            { "number": 7, "sources": [{ "name": "Bölüm 7", "url": "https://drive.google.com/file/d/1vaD-fd7vJCXXB-IaeRTWhbUOPi5EG2zg/preview", "type": "gdrive" }, { "name": "Bölüm 7", "url": "https://voe.sx/gld9r7er1lte", "type": "voe" }] },
+            { "number": 8, "sources": [{ "name": "Bölüm 8", "url": "https://drive.google.com/file/d/14TRzsmksXIuvVxr-CHRhnZp1rai7jWD5/preview", "type": "gdrive" }, { "name": "Bölüm 8", "url": "https://voe.sx/0epolnsrh317", "type": "voe" }] },
+            { "number": 9, "sources": [{ "name": "Bölüm 9", "url": "https://drive.google.com/file/d/1Gaiq8r6C-rJqYWKzvBTU4o9PaV3aspBa/preview", "type": "gdrive" }, { "name": "Bölüm 9", "url": "https://voe.sx/lq3kp7hcr2po", "type": "voe" }] },
+            { "number": 10, "sources": [{ "name": "Bölüm 10", "url": "https://drive.google.com/file/d/1OEMHM7fZm4TbkkhfNsff22xDg7XQwQ91/preview", "type": "gdrive" }, { "name": "Bölüm 10", "url": "https://voe.sx/bhksz3vfklwr", "type": "voe" }, { "name": "Bölüm 10", "url": "https://video.sibnet.ru/video6147616", "type": "sibnet" }] },
+            { "number": 11, "sources": [{ "name": "Bölüm 11", "url": "https://drive.google.com/file/d/1yEw7ZM44Uw7ySRTLHsX4bHL-ra4fnnAO/preview", "type": "gdrive" }, { "name": "Bölüm 11", "url": "https://voe.sx/ykdkl54ihqrc", "type": "voe" }, { "name": "Bölüm 11", "url": "https://video.sibnet.ru/video6152419", "type": "sibnet" }] }
+          ]
+        }
+      ]
     }
   ]
 }
