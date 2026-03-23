@@ -3,7 +3,7 @@
     {
       "id": "code-geass",
       "searchTitle": "Code Geass",
-      "image": "https://cdn.myanimelist.net/images/anime/5/50331l.jpg",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx126830-Mx56p5DMIjiq.png",
       "title": "Code Geass: Lelouch of the Rebellion",
       "description": "Japonya, Britannian İmparatorluğu tarafından işgal edilir. Dışlanmış bir prens olan Lelouch, bir gizemli kızdan aldığı 'Geass' gücüyle imparatorluğu yıkmaya ant içer.",
       "tags": [
@@ -32,7 +32,9 @@
             }
           ]
         }
-      ]
+      ],
+      "titleEnglish": "Code Geass: Rozé of the Recapture",
+      "titleNative": "コードギアス 奪還のロゼ"
     },
     {
       "id": "aristocrat",
@@ -81,7 +83,9 @@
           ]
         }
       ],
-      "image": "https://myanimelist.net/images/anime/1071/135255l.jpg"
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx129898-FRUzDtPhRigt.jpg",
+      "titleEnglish": "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
+      "titleNative": "世界最高の暗殺者、異世界貴族に転生する"
     },
     {
       "id": "dead-account",
@@ -194,7 +198,9 @@
           ]
         }
       ],
-      "image": "https://myanimelist.net/images/anime/1622/154192l.jpg"
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187901-T91HmZAaNwOF.jpg",
+      "titleEnglish": "Dead Account",
+      "titleNative": "デッドアカウント"
     },
     {
       "id": "girls-und-panzer-motto",
@@ -228,12 +234,14 @@
           ]
         }
       ],
-      "image": "https://myanimelist.net/images/anime/1076/155754l.jpg"
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx188034-hlwafdUZhjwD.png",
+      "titleEnglish": "Girls und Panzer: Motto Love Love Sakusen desu!",
+      "titleNative": "ガールズ＆パンツァー もっとらぶらぶ作戦です！"
     },
     {
       "id": "eris-no-seihai",
       "searchTitle": "Eris no Seihai",
-      "image": "https://myanimelist.net/images/anime/1404/154931l.jpg",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx183270-CmZikKu34WPd.jpg",
       "title": "Eris no Seihai (The Holy Grail of Eris)",
       "description": "Dürüst Connie, 10 yıl önce idam edilen 'Gökkuşağı Gözlü Kötü Kadın' Scarlett'in ruhuyla bir anlaşma yapar.",
       "tags": [
@@ -422,12 +430,14 @@
             }
           ]
         }
-      ]
+      ],
+      "titleEnglish": "The Holy Grail of Eris",
+      "titleNative": "エリスの聖杯"
     },
     {
       "id": "rooster-fighter",
       "searchTitle": "Rooster Fighter",
-      "image": "https://myanimelist.net/images/anime/1666/150983l.jpg",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx179813-WQ153lF3pDH6.jpg",
       "title": "Rooster Fighter",
       "description": "Dev canavarlar dünyayı tehdit ederken, kahraman bir horoz insanlığı kurtarmak için savaşır.",
       "tags": [
@@ -460,7 +470,9 @@
             }
           ]
         }
-      ]
+      ],
+      "titleEnglish": "Rooster Fighter",
+      "titleNative": "ニワトリ・ファイター"
     },
     {
       "id": "okiraku-ryoushu",
@@ -493,12 +505,14 @@
           ]
         }
       ],
-      "image": "https://myanimelist.net/images/anime/1264/153908l.jpg"
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx191205-ALhucRyrwOW1.jpg",
+      "titleEnglish": "Easygoing Territory Defense by the Optimistic Lord",
+      "titleNative": "お気楽領主の楽しい領地防衛"
     },
     {
       "id": "tensei-shitara-dragon",
       "searchTitle": "Tensei Shitara Dragon",
-      "image": "https://myanimelist.net/images/anime/1250/156107l.jpg",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx187941-ykmc8WRedPpw.jpg",
       "title": "Tensei Shitara Dragon no Tamago Datta",
       "description": "Ejderha yumurtası olarak reenkarne olan bir gencin hayatta kalma mücadelesi.",
       "tags": [
@@ -526,12 +540,14 @@
             }
           ]
         }
-      ]
+      ],
+      "titleEnglish": "Reincarnated as a Dragon Hatchling",
+      "titleNative": "転生したらドラゴンの卵だった"
     },
     {
       "id": "akuyaku-reijou-lv99",
       "searchTitle": "Akuyaku Reijou Level 99",
-      "image": "https://myanimelist.net/images/anime/1150/140028l.jpg",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163076-5wQKtU3FoMxd.jpg",
       "title": "Akuyaku Reijou Level 99",
       "description": "Gizli patron olarak reenkarne olan Yumiela'nın seviye 99 macerası.",
       "tags": [
@@ -710,12 +726,14 @@
             }
           ]
         }
-      ]
+      ],
+      "titleEnglish": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
+      "titleNative": "悪役令嬢レベル99 ～私は裏ボスですが魔王ではありません～"
     },
     {
       "id": "yuusha-party-kawaii",
       "searchTitle": "Yuusha Party ni Kawaii",
-      "image": "https://myanimelist.net/images/anime/1573/152828l.jpg",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx195515-p1nD71Hmr4ly.jpg",
       "title": "Yuusha Party ni Kawaii Ko ga Ita node",
       "description": "Kahraman partisindeki tatlı kıza ilan-ı aşk eden bir gencin hikayesi.",
       "tags": [
@@ -898,7 +916,9 @@
             }
           ]
         }
-      ]
+      ],
+      "titleEnglish": "There was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her",
+      "titleNative": "勇者パーティーにかわいい子がいたので、告白してみた。"
     }
   ]
 }

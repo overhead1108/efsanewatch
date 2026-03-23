@@ -44,8 +44,25 @@ body {
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.2;
+}
+
+.anime-titles {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.anime-title-en {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.anime-title-jp {
+  font-size: 0.8rem;
+  color: var(--text-muted);
 }
 
 .text-gradient {

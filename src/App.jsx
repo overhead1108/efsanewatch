@@ -8,61 +8,8 @@ function App() {
   const [selectedSeason, setSelectedSeason] = useState(null);
   const [selectedEpisode, setSelectedEpisode] = useState(null);
   const [selectedSource, setSelectedSource] = useState(null);
-  const [covers, setCovers] = useState({});
+  const [covers] = useState({}); // Keep for backward compatibility if needed, but not populated now
   const [searchTerm, setSearchTerm] = useState("");
-
-  useEffect(() => {
-    const fetchCovers = async () => {
-      const newCovers = { ...covers };
-      let updated = false;
-
-      for (const anime of animes) {
-        if (!newCovers[anime.id]) {
-          // Statik (Manuel) bir görsel tanımlanmışsa API'ı es geç
-          if (anime.image) {
-            newCovers[anime.id] = anime.image;
-            updated = true;
-            continue;
-          }
-
-          const cacheKey = `cover_${anime.id}_${anime.searchTitle}`;
-          const cachedCover = localStorage.getItem(cacheKey);
-          if (cachedCover) {
-            newCovers[anime.id] = cachedCover;
-            updated = true;
-            continue;
-          }
-
-          try {
-            // Jikan API rate limiter avoid 3 requests/sec
-            await new Promise(r => setTimeout(r, 600));
-            const res = await fetch(`https://api.jikan.moe/v4/anime?q=${encodeURIComponent(anime.searchTitle)}&limit=1`);
-            const data = await res.json();
-
-            if (data.data && data.data.length > 0) {
-              const coverUrl = data.data[0].images.jpg.large_image_url || data.data[0].images.jpg.image_url;
-              newCovers[anime.id] = coverUrl;
-              localStorage.setItem(cacheKey, coverUrl);
-              updated = true;
-            } else {
-              const noCover = "https://via.placeholder.com/300x450/1a1d24/ffffff?text=Kapak+Yok";
-              newCovers[anime.id] = noCover;
-            }
-          } catch (error) {
-            console.error("Cover fetch failed for:", anime.searchTitle, error);
-          }
-        }
-      }
-
-      if (updated) {
-        setCovers(newCovers);
-      }
-    };
-
-    if (animes.length > 0) {
-      fetchCovers();
-    }
-  }, [animes]); // Sadece ilk yüklemede çalışır
 
   const handleAnimeClick = (anime) => {
     setSelectedAnime(anime);
@@ -167,15 +114,23 @@ function App() {
                 .filter(anime => anime.title.toLowerCase().includes(searchTerm.toLowerCase()) || anime.searchTitle.toLowerCase().includes(searchTerm.toLowerCase()))
                 .map(anime => (
                   <div key={anime.id} className="anime-card" onClick={() => handleAnimeClick(anime)}>
-                    {covers[anime.id] ? (
-                      <img src={covers[anime.id]} alt={anime.title} className="anime-cover" loading="lazy" />
+                    {anime.image ? (
+                      <img src={anime.image} alt={anime.title} className="anime-cover" loading="lazy" />
                     ) : (
                       <div className="loader-container" style={{ height: "100%", background: "var(--bg-secondary)" }}>
                         <span className="loader"></span>
                       </div>
                     )}
                     <div className="anime-card-overlay">
-                      <h3 className="anime-title">{anime.title}</h3>
+                      <div className="anime-titles">
+                        <h3 className="anime-title">{anime.title}</h3>
+                        {anime.titleEnglish && anime.titleEnglish !== anime.title && (
+                          <span className="anime-title-en">{anime.titleEnglish}</span>
+                        )}
+                        {anime.titleNative && (
+                          <span className="anime-title-jp">{anime.titleNative}</span>
+                        )}
+                      </div>
                       <div className="anime-tags">
                         {anime.tags?.map(tag => (
                           <span key={tag} className="tag">{tag}</span>
@@ -192,13 +147,23 @@ function App() {
             <button className="back-btn" onClick={handleBack}>
               ← Tüm Serilere Dön
             </button>
-
+ 
             <div className="detail-header">
-              {covers[selectedAnime.id] && (
+              {covers[selectedAnime.id] ? (
                 <img src={covers[selectedAnime.id]} alt={selectedAnime.title} className="detail-cover" />
+              ) : selectedAnime.image && (
+                <img src={selectedAnime.image} alt={selectedAnime.title} className="detail-cover" />
               )}
               <div className="detail-info">
-                <h1 className="detail-title text-gradient">{selectedAnime.title}</h1>
+                <div className="anime-titles" style={{ marginBottom: "0.5rem" }}>
+                  <h1 className="detail-title text-gradient" style={{ fontSize: "2.5rem" }}>{selectedAnime.title}</h1>
+                  {selectedAnime.titleEnglish && selectedAnime.titleEnglish !== selectedAnime.title && (
+                    <span className="anime-title-en" style={{ fontSize: "1.2rem" }}>{selectedAnime.titleEnglish}</span>
+                  )}
+                  {selectedAnime.titleNative && (
+                    <span className="anime-title-jp" style={{ fontSize: "1rem" }}>{selectedAnime.titleNative}</span>
+                  )}
+                </div>
                 <div className="anime-tags" style={{ marginBottom: "0.5rem" }}>
                   {selectedAnime.tags?.map(tag => (
                     <span key={tag} className="tag">{tag}</span>
