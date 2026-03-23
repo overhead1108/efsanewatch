@@ -516,16 +516,29 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .header {
-    flex-direction: column;
-    gap: 1.5rem;
-    padding: 1rem;
-    height: auto;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    padding: 1.5rem 1rem !important;
+    height: auto !important;
+    align-items: center !important;
   }
   
   .mode-toggle {
-    width: 100%;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    order: 2; /* Ensure toggle is below logo if needed, but flex-direction: column already handles it */
+  }
+  
+  .logo {
+    order: 1;
   }
   
   .mode-btn {
@@ -534,7 +547,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .main-content {
-    padding: 1.5rem 5%;
+    padding: 1rem 5% !important;
   }
 
   .detail-header {
