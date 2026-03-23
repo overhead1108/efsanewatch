@@ -465,6 +465,24 @@
                   "name": "Bölüm 1",
                   "url": "https://video.sibnet.ru/video6150083",
                   "type": "sibnet"
+                },
+                {
+              "number": 2,
+              "sources": [
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://voe.sx/2vdcfrydcy34",
+                  "type": "voe"
+                },
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://drive.google.com/file/d/1SkSWMgOEQ-vTpHAHoiqiOXi1o3FQnB5f/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://video.sibnet.ru/video6154370",
+                  "type": "sibnet"
                 }
               ]
             }
