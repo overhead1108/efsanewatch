@@ -3,7 +3,14 @@ import configData from './data/config.json';
 import './index.css';
 
 function App() {
-  const [viewMode, setViewMode] = useState('anime'); // 'anime' veya 'manga'
+  const [viewMode, setViewMode] = useState(() => {
+    return localStorage.getItem('viewMode') || 'anime';
+  }); 
+
+  useEffect(() => {
+    localStorage.setItem('viewMode', viewMode);
+  }, [viewMode]);
+
   const [animes] = useState(configData.animes || []);
   const [mangas] = useState(configData.mangas || []);
   const [selectedItem, setSelectedItem] = useState(null);
@@ -82,20 +89,11 @@ function App() {
     <div className={`app-container ${viewMode}-mode`}>
       {/* HEADER */}
       <header className="header" style={{ padding: "1rem 5%" }}>
-        <div className="logo" onClick={handleBack}>
-          <img 
-            src={viewMode === 'manga' ? "./logo2.png" : "./logo.png"} 
-            alt="efsanewatch" 
-            style={{ height: "75px", objectFit: "contain" }} 
-          />
-          <span style={{ 
-            fontSize: "0.8rem", 
-            color: viewMode === 'manga' ? "#ffa9f9" : "#94b9ff",
-            alignSelf: "flex-end", 
-            marginBottom: "15px", 
-            marginLeft: "-10px", 
-            fontWeight: "700" 
-          }}>v2</span>
+        <div key={viewMode} className="logo shadow-in" onClick={handleBack}>
+          <span className="logo-text text-gradient">
+            {viewMode === 'manga' ? 'efsanemanga' : 'efsanewatch'}
+          </span>
+          <span className="logo-v">v2</span>
         </div>
 
         <div className="mode-toggle">
