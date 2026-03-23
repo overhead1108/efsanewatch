@@ -9,8 +9,8 @@ async function main() {
   let updated = false;
   
   for (let anime of config.animes) {
-    if (anime.image && !anime.image.includes('placeholder')) {
-      console.log(`Already has cover: ${anime.searchTitle}`);
+    if (anime.image && (anime.image.includes('l.jpg') || anime.image.includes('large'))) {
+      console.log(`Already has high-quality cover: ${anime.searchTitle}`);
       continue;
     }
     
@@ -27,7 +27,7 @@ async function main() {
       const data = await res.json();
       
       if (data && data.data && data.data.length > 0) {
-        anime.image = data.data[0].images.jpg.large_image_url;
+        anime.image = data.data[0].images.jpg.large_image_url || data.data[0].images.jpg.image_url;
         updated = true;
         console.log(`Success: ${anime.image}`);
       } else {

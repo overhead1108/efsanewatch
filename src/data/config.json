@@ -6,7 +6,11 @@
       "image": "https://cdn.myanimelist.net/images/anime/5/50331l.jpg",
       "title": "Code Geass: Lelouch of the Rebellion",
       "description": "Japonya, Britannian İmparatorluğu tarafından işgal edilir. Dışlanmış bir prens olan Lelouch, bir gizemli kızdan aldığı 'Geass' gücüyle imparatorluğu yıkmaya ant içer.",
-      "tags": ["Aksiyon", "Mecha", "Bilim Kurgu"],
+      "tags": [
+        "Aksiyon",
+        "Mecha",
+        "Bilim Kurgu"
+      ],
       "seasons": [
         {
           "name": "Sezon 1",
@@ -14,8 +18,16 @@
             {
               "number": 1,
               "sources": [
-                { "name": "Bölüm 1", "url": "https://drive.google.com/file/d/1h1lw4O7hf8Tr_b42OvSAs_fdPGa2P2zg/preview", "type": "gdrive" },
-                { "name": "Bölüm 1", "url": "https://voe.sx/qxr0c6d3oce2", "type": "voe" }
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://drive.google.com/file/d/1h1lw4O7hf8Tr_b42OvSAs_fdPGa2P2zg/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://voe.sx/qxr0c6d3oce2",
+                  "type": "voe"
+                }
               ]
             }
           ]
@@ -27,7 +39,11 @@
       "searchTitle": "Tensei Kizoku no Isekai",
       "title": "The Aristocrat's Otherworldly Adventure",
       "description": "Kahramanımız, modern Japonya'da öldükten sonra Cain von Silford olarak reenkarne olur. Tanrılar tarafından aşırı güçlü kutsamalar alınca, yeteneklerini gizlemek zorunda kalır.",
-      "tags": ["Aksiyon", "Isekai", "Büyü"],
+      "tags": [
+        "Aksiyon",
+        "Isekai",
+        "Büyü"
+      ],
       "seasons": [
         {
           "name": "Sezon 1",
@@ -35,46 +51,47 @@
             {
               "number": 1,
               "sources": [
-                { "name": "Bölüm 1", "url": "https://drive.google.com/file/d/15NGPVHTzmWXAixhRCA4xvD6LgREKJ39M/preview", "type": "gdrive" },
-                { "name": "Bölüm 1", "url": "https://video.sibnet.ru/video6149093", "type": "sibnet" },
-                { "name": "Bölüm 1", "url": "https://voe.sx/lw8blkkvaqrq", "type": "voe" }
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://drive.google.com/file/d/15NGPVHTzmWXAixhRCA4xvD6LgREKJ39M/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://video.sibnet.ru/video6149093",
+                  "type": "sibnet"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://voe.sx/lw8blkkvaqrq",
+                  "type": "voe"
+                }
               ]
             },
             {
               "number": 2,
               "sources": [
-                { "name": "Bölüm 2", "url": "https://drive.google.com/file/d/1ivOSdr-Vad5cK0OdX_MG5wUEk0eDumdb/preview", "type": "gdrive" }
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://drive.google.com/file/d/1ivOSdr-Vad5cK0OdX_MG5wUEk0eDumdb/preview",
+                  "type": "gdrive"
+                }
               ]
             }
           ]
         }
-      ]
+      ],
+      "image": "https://myanimelist.net/images/anime/1071/135255l.jpg"
     },
     {
       "id": "dead-account",
       "searchTitle": "Dead Account",
       "title": "Dead Account",
       "description": "Çevrimiçi yayıncı Aoringo, alev tuzağı içeriğinin en kötüsünü yapan bir trol... Ancak doğaüstü olayların içine çekildiğinde işler ciddileşir.",
-      "tags": ["Gerilim", "Korku"],
-      "seasons": [
-        {
-          "name": "Sezon 1",
-          "episodes": [
-            { "number": 1, "sources": [{ "name": "Bölüm 1", "url": "https://drive.google.com/file/d/1u9_kINf1a1rmjz3m40ilRLFsB4t-IKTQ/preview", "type": "gdrive" }, { "name": "Bölüm 1", "url": "https://video.sibnet.ru/video6151717", "type": "sibnet" }, { "name": "Bölüm 1", "url": "https://voe.sx/8uk20p6rjgol", "type": "voe" }] },
-            { "number": 2, "sources": [{ "name": "Bölüm 2", "url": "https://drive.google.com/file/d/1zpPVnfck0PHRl8b3fTERHaKSWd8yzEHZ/preview", "type": "gdrive" }, { "name": "Bölüm 2", "url": "https://video.sibnet.ru/video6151726", "type": "sibnet" }, { "name": "Bölüm 2", "url": "https://voe.sx/joa8uq6dgqzh", "type": "voe" }] },
-            { "number": 3, "sources": [{ "name": "Bölüm 3", "url": "https://drive.google.com/file/d/1DOwO5tOwrG_WBDXYRKi9DnIo_6uoWHQb/preview", "type": "gdrive" }, { "name": "Bölüm 3", "url": "https://video.sibnet.ru/video6152628", "type": "sibnet" }, { "name": "Bölüm 3", "url": "https://voe.sx/vteulsajyuvb", "type": "voe" }] },
-            { "number": 4, "sources": [{ "name": "Bölüm 4", "url": "https://drive.google.com/file/d/1SKAOfaY1cV4iDp1pfG5XBtopQny9igUi/preview", "type": "gdrive" }, { "name": "Bölüm 4", "url": "https://voe.sx/j0ijpzayntq2", "type": "voe" }] },
-            { "number": 5, "sources": [{ "name": "Bölüm 5", "url": "https://drive.google.com/file/d/1CfdraKG0E4noy1ZuKA8EzfW2MrPPa5Od/preview", "type": "gdrive" }, { "name": "Bölüm 5", "url": "https://voe.sx/0vayghlgzmsb", "type": "voe" }, { "name": "Bölüm 5", "url": "https://video.sibnet.ru/video6153960", "type": "sibnet" }] }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "girls-und-panzer-motto",
-      "searchTitle": "Girls und Panzer Motto Love Love",
-      "title": "Girls und Panzer Motto Love Love",
-      "description": "Kızların tank ustası olma yolundaki tatlı ve komik anları...",
-      "tags": ["Komedi", "Okul", "Slice of Life"],
+      "tags": [
+        "Gerilim",
+        "Korku"
+      ],
       "seasons": [
         {
           "name": "Sezon 1",
@@ -82,36 +99,327 @@
             {
               "number": 1,
               "sources": [
-                { "name": "Bölüm 1", "url": "https://drive.google.com/file/d/1fbXAgoy1doNWAPwRRVGID4M8buehqUd7/preview", "type": "gdrive" },
-                { "name": "Bölüm 1", "url": "https://voe.sx/ga0cobtj5kg3", "type": "voe" }
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://drive.google.com/file/d/1u9_kINf1a1rmjz3m40ilRLFsB4t-IKTQ/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://video.sibnet.ru/video6151717",
+                  "type": "sibnet"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://voe.sx/8uk20p6rjgol",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "sources": [
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://drive.google.com/file/d/1zpPVnfck0PHRl8b3fTERHaKSWd8yzEHZ/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://video.sibnet.ru/video6151726",
+                  "type": "sibnet"
+                },
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://voe.sx/joa8uq6dgqzh",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "sources": [
+                {
+                  "name": "Bölüm 3",
+                  "url": "https://drive.google.com/file/d/1DOwO5tOwrG_WBDXYRKi9DnIo_6uoWHQb/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 3",
+                  "url": "https://video.sibnet.ru/video6152628",
+                  "type": "sibnet"
+                },
+                {
+                  "name": "Bölüm 3",
+                  "url": "https://voe.sx/vteulsajyuvb",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "sources": [
+                {
+                  "name": "Bölüm 4",
+                  "url": "https://drive.google.com/file/d/1SKAOfaY1cV4iDp1pfG5XBtopQny9igUi/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 4",
+                  "url": "https://voe.sx/j0ijpzayntq2",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "sources": [
+                {
+                  "name": "Bölüm 5",
+                  "url": "https://drive.google.com/file/d/1CfdraKG0E4noy1ZuKA8EzfW2MrPPa5Od/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 5",
+                  "url": "https://voe.sx/0vayghlgzmsb",
+                  "type": "voe"
+                },
+                {
+                  "name": "Bölüm 5",
+                  "url": "https://video.sibnet.ru/video6153960",
+                  "type": "sibnet"
+                }
               ]
             }
           ]
         }
-      ]
+      ],
+      "image": "https://myanimelist.net/images/anime/1622/154192l.jpg"
     },
     {
-      "id": "eris-no-seihai",
-      "searchTitle": "Eris no Seihai",
-      "image": "https://cdn.myanimelist.net/images/anime/1066/142340.jpg",
-      "title": "Eris no Seihai (The Holy Grail of Eris)",
-      "description": "Dürüst Connie, 10 yıl önce idam edilen 'Gökkuşağı Gözlü Kötü Kadın' Scarlett'in ruhuyla bir anlaşma yapar.",
-      "tags": ["Dram", "Gizem", "Fantezi"],
+      "id": "girls-und-panzer-motto",
+      "searchTitle": "Girls und Panzer Motto Love Love",
+      "title": "Girls und Panzer Motto Love Love",
+      "description": "Kızların tank ustası olma yolundaki tatlı ve komik anları...",
+      "tags": [
+        "Komedi",
+        "Okul",
+        "Slice of Life"
+      ],
       "seasons": [
         {
           "name": "Sezon 1",
           "episodes": [
-            { "number": 1, "sources": [{ "name": "Bölüm 1", "url": "https://drive.google.com/file/d/1UVurdAUhpOafTUs565moxByndUzPNkNw/preview", "type": "gdrive" }, { "name": "Bölüm 1", "url": "https://voe.sx/8p4ovjfyo1zz", "type": "voe" }] },
-            { "number": 2, "sources": [{ "name": "Bölüm 2", "url": "https://drive.google.com/file/d/1KYrTuW1RISsKDl6TvfvfcnqhxH4mX5YI/preview", "type": "gdrive" }, { "name": "Bölüm 2", "url": "https://voe.sx/wpg95bk1lvkh", "type": "voe" }] },
-            { "number": 3, "sources": [{ "name": "Bölüm 3", "url": "https://drive.google.com/file/d/1e51Zy-6kK2YzMbx6We-PZTp-YNThHFlz/preview", "type": "gdrive" }, { "name": "Bölüm 3", "url": "https://voe.sx/f6vfmamqf9sd", "type": "voe" }] },
-            { "number": 4, "sources": [{ "name": "Bölüm 4", "url": "https://drive.google.com/file/d/1yqdzxnFp0GwY2_x7iiBmGkykUWKgo1vT/preview", "type": "gdrive" }, { "name": "Bölüm 4", "url": "https://voe.sx/f6vfmamqf9sd", "type": "voe" }] },
-            { "number": 5, "sources": [{ "name": "Bölüm 5", "url": "https://drive.google.com/file/d/1Ii1nNfYS8BMO62fCwYVqs0y6FR_lRJWJ/preview", "type": "gdrive" }, { "name": "Bölüm 5", "url": "https://voe.sx/lg7wxrlc0jwi", "type": "voe" }] },
-            { "number": 6, "sources": [{ "name": "Bölüm 6", "url": "https://drive.google.com/file/d/1xULPp63EC11MMzrW9Lg0LJyk2THtLMmf/preview", "type": "gdrive" }, { "name": "Bölüm 6", "url": "https://voe.sx/5njl9fmsmuqi", "type": "voe" }] },
-            { "number": 7, "sources": [{ "name": "Bölüm 7", "url": "https://drive.google.com/file/d/1vaD-fd7vJCXXB-IaeRTWhbUOPi5EG2zg/preview", "type": "gdrive" }, { "name": "Bölüm 7", "url": "https://voe.sx/gld9r7er1lte", "type": "voe" }] },
-            { "number": 8, "sources": [{ "name": "Bölüm 8", "url": "https://drive.google.com/file/d/14TRzsmksXIuvVxr-CHRhnZp1rai7jWD5/preview", "type": "gdrive" }, { "name": "Bölüm 8", "url": "https://voe.sx/0epolnsrh317", "type": "voe" }] },
-            { "number": 9, "sources": [{ "name": "Bölüm 9", "url": "https://drive.google.com/file/d/1Gaiq8r6C-rJqYWKzvBTU4o9PaV3aspBa/preview", "type": "gdrive" }, { "name": "Bölüm 9", "url": "https://voe.sx/lq3kp7hcr2po", "type": "voe" }] },
-            { "number": 10, "sources": [{ "name": "Bölüm 10", "url": "https://drive.google.com/file/d/1OEMHM7fZm4TbkkhfNsff22xDg7XQwQ91/preview", "type": "gdrive" }, { "name": "Bölüm 10", "url": "https://voe.sx/bhksz3vfklwr", "type": "voe" }, { "name": "Bölüm 10", "url": "https://video.sibnet.ru/video6147616", "type": "sibnet" }] },
-            { "number": 11, "sources": [{ "name": "Bölüm 11", "url": "https://drive.google.com/file/d/1yEw7ZM44Uw7ySRTLHsX4bHL-ra4fnnAO/preview", "type": "gdrive" }, { "name": "Bölüm 11", "url": "https://voe.sx/ykdkl54ihqrc", "type": "voe" }, { "name": "Bölüm 11", "url": "https://video.sibnet.ru/video6152419", "type": "sibnet" }] }
+            {
+              "number": 1,
+              "sources": [
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://drive.google.com/file/d/1fbXAgoy1doNWAPwRRVGID4M8buehqUd7/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://voe.sx/ga0cobtj5kg3",
+                  "type": "voe"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "image": "https://myanimelist.net/images/anime/1076/155754l.jpg"
+    },
+    {
+      "id": "eris-no-seihai",
+      "searchTitle": "Eris no Seihai",
+      "image": "https://myanimelist.net/images/anime/1404/154931l.jpg",
+      "title": "Eris no Seihai (The Holy Grail of Eris)",
+      "description": "Dürüst Connie, 10 yıl önce idam edilen 'Gökkuşağı Gözlü Kötü Kadın' Scarlett'in ruhuyla bir anlaşma yapar.",
+      "tags": [
+        "Dram",
+        "Gizem",
+        "Fantezi"
+      ],
+      "seasons": [
+        {
+          "name": "Sezon 1",
+          "episodes": [
+            {
+              "number": 1,
+              "sources": [
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://drive.google.com/file/d/1UVurdAUhpOafTUs565moxByndUzPNkNw/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://voe.sx/8p4ovjfyo1zz",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "sources": [
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://drive.google.com/file/d/1KYrTuW1RISsKDl6TvfvfcnqhxH4mX5YI/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://voe.sx/wpg95bk1lvkh",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "sources": [
+                {
+                  "name": "Bölüm 3",
+                  "url": "https://drive.google.com/file/d/1e51Zy-6kK2YzMbx6We-PZTp-YNThHFlz/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 3",
+                  "url": "https://voe.sx/f6vfmamqf9sd",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "sources": [
+                {
+                  "name": "Bölüm 4",
+                  "url": "https://drive.google.com/file/d/1yqdzxnFp0GwY2_x7iiBmGkykUWKgo1vT/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 4",
+                  "url": "https://voe.sx/f6vfmamqf9sd",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "sources": [
+                {
+                  "name": "Bölüm 5",
+                  "url": "https://drive.google.com/file/d/1Ii1nNfYS8BMO62fCwYVqs0y6FR_lRJWJ/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 5",
+                  "url": "https://voe.sx/lg7wxrlc0jwi",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "sources": [
+                {
+                  "name": "Bölüm 6",
+                  "url": "https://drive.google.com/file/d/1xULPp63EC11MMzrW9Lg0LJyk2THtLMmf/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 6",
+                  "url": "https://voe.sx/5njl9fmsmuqi",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 7,
+              "sources": [
+                {
+                  "name": "Bölüm 7",
+                  "url": "https://drive.google.com/file/d/1vaD-fd7vJCXXB-IaeRTWhbUOPi5EG2zg/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 7",
+                  "url": "https://voe.sx/gld9r7er1lte",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "sources": [
+                {
+                  "name": "Bölüm 8",
+                  "url": "https://drive.google.com/file/d/14TRzsmksXIuvVxr-CHRhnZp1rai7jWD5/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 8",
+                  "url": "https://voe.sx/0epolnsrh317",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 9,
+              "sources": [
+                {
+                  "name": "Bölüm 9",
+                  "url": "https://drive.google.com/file/d/1Gaiq8r6C-rJqYWKzvBTU4o9PaV3aspBa/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 9",
+                  "url": "https://voe.sx/lq3kp7hcr2po",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 10,
+              "sources": [
+                {
+                  "name": "Bölüm 10",
+                  "url": "https://drive.google.com/file/d/1OEMHM7fZm4TbkkhfNsff22xDg7XQwQ91/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 10",
+                  "url": "https://voe.sx/bhksz3vfklwr",
+                  "type": "voe"
+                },
+                {
+                  "name": "Bölüm 10",
+                  "url": "https://video.sibnet.ru/video6147616",
+                  "type": "sibnet"
+                }
+              ]
+            },
+            {
+              "number": 11,
+              "sources": [
+                {
+                  "name": "Bölüm 11",
+                  "url": "https://drive.google.com/file/d/1yEw7ZM44Uw7ySRTLHsX4bHL-ra4fnnAO/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 11",
+                  "url": "https://voe.sx/ykdkl54ihqrc",
+                  "type": "voe"
+                },
+                {
+                  "name": "Bölüm 11",
+                  "url": "https://video.sibnet.ru/video6152419",
+                  "type": "sibnet"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -119,10 +427,13 @@
     {
       "id": "rooster-fighter",
       "searchTitle": "Rooster Fighter",
-      "image": "https://cdn.myanimelist.net/images/anime/1761/144673.jpg",
+      "image": "https://myanimelist.net/images/anime/1666/150983l.jpg",
       "title": "Rooster Fighter",
       "description": "Dev canavarlar dünyayı tehdit ederken, kahraman bir horoz insanlığı kurtarmak için savaşır.",
-      "tags": ["Aksiyon", "Komedi"],
+      "tags": [
+        "Aksiyon",
+        "Komedi"
+      ],
       "seasons": [
         {
           "name": "Sezon 1",
@@ -130,9 +441,21 @@
             {
               "number": 1,
               "sources": [
-                { "name": "Bölüm 1", "url": "https://voe.sx/1ub0ylycijqc", "type": "voe" },
-                { "name": "Bölüm 1", "url": "https://drive.google.com/file/d/1u7VY-CSzmB9GMhw5I1uK3lvQrSgVjTIC/preview", "type": "gdrive" },
-                { "name": "Bölüm 1", "url": "https://video.sibnet.ru/video6150083", "type": "sibnet" }
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://voe.sx/1ub0ylycijqc",
+                  "type": "voe"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://drive.google.com/file/d/1u7VY-CSzmB9GMhw5I1uK3lvQrSgVjTIC/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://video.sibnet.ru/video6150083",
+                  "type": "sibnet"
+                }
               ]
             }
           ]
@@ -144,7 +467,10 @@
       "searchTitle": "Okiraku Ryoushu",
       "title": "Okiraku Ryoushu no Funwari Lyo-chi Keiei",
       "description": "Kendi halinde bir beyin topraklarını yönetme hikayesi.",
-      "tags": ["Fantezi", "Slice of Life"],
+      "tags": [
+        "Fantezi",
+        "Slice of Life"
+      ],
       "seasons": [
         {
           "name": "Sezon 1",
@@ -152,21 +478,33 @@
             {
               "number": 1,
               "sources": [
-                { "name": "Bölüm 1", "url": "https://voe.sx/1ub0ylycijqc", "type": "voe" },
-                { "name": "Bölüm 1", "url": "https://drive.google.com/file/d/1y9hmue6Aq9cQPybsXFQmuhX4kh3XwY1H/preview", "type": "gdrive" }
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://voe.sx/1ub0ylycijqc",
+                  "type": "voe"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://drive.google.com/file/d/1y9hmue6Aq9cQPybsXFQmuhX4kh3XwY1H/preview",
+                  "type": "gdrive"
+                }
               ]
             }
           ]
         }
-      ]
+      ],
+      "image": "https://myanimelist.net/images/anime/1264/153908l.jpg"
     },
     {
       "id": "tensei-shitara-dragon",
       "searchTitle": "Tensei Shitara Dragon",
-      "image": "https://cdn.myanimelist.net/images/anime/1063/123512.jpg",
+      "image": "https://myanimelist.net/images/anime/1250/156107l.jpg",
       "title": "Tensei Shitara Dragon no Tamago Datta",
       "description": "Ejderha yumurtası olarak reenkarne olan bir gencin hayatta kalma mücadelesi.",
-      "tags": ["Aksiyon", "Isekai"],
+      "tags": [
+        "Aksiyon",
+        "Isekai"
+      ],
       "seasons": [
         {
           "name": "Sezon 1",
@@ -174,8 +512,16 @@
             {
               "number": 1,
               "sources": [
-                { "name": "Bölüm 1", "url": "https://voe.sx/evdg7k5tzfaw", "type": "voe" },
-                { "name": "Bölüm 1", "url": "https://drive.google.com/file/d/1vQIQSYFxi_mRcqI2bE--PNPoO96jYwU2/preview", "type": "gdrive" }
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://voe.sx/evdg7k5tzfaw",
+                  "type": "voe"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://drive.google.com/file/d/1vQIQSYFxi_mRcqI2bE--PNPoO96jYwU2/preview",
+                  "type": "gdrive"
+                }
               ]
             }
           ]
@@ -185,24 +531,183 @@
     {
       "id": "akuyaku-reijou-lv99",
       "searchTitle": "Akuyaku Reijou Level 99",
-      "image": "https://cdn.myanimelist.net/images/anime/1623/139332.jpg",
+      "image": "https://myanimelist.net/images/anime/1150/140028l.jpg",
       "title": "Akuyaku Reijou Level 99",
       "description": "Gizli patron olarak reenkarne olan Yumiela'nın seviye 99 macerası.",
-      "tags": ["Fantezi", "Komedi", "Isekai"],
+      "tags": [
+        "Fantezi",
+        "Komedi",
+        "Isekai"
+      ],
       "seasons": [
         {
           "name": "Sezon 1",
           "episodes": [
-            { "number": 1, "sources": [{ "name": "Bölüm 1", "url": "https://drive.google.com/file/d/1XmDeGdIF-R72qxdcrpkMLt9ZhpEBv2E1/preview", "type": "gdrive" }, { "name": "Bölüm 1", "url": "https://voe.sx/3pvg319fnohg", "type": "voe" }] },
-            { "number": 2, "sources": [{ "name": "Bölüm 2", "url": "https://drive.google.com/file/d/1XmDeGdIF-R72qxdcrpkMLt9ZhpEBv2E1/preview", "type": "gdrive" }, { "name": "Bölüm 2", "url": "https://voe.sx/xbxluqloiput", "type": "voe" }] },
-            { "number": 3, "sources": [{ "name": "Bölüm 3", "url": "https://drive.google.com/file/d/1N2nRZ5S5ot8wL-8MFP93AIpknv-vZfmy/preview", "type": "gdrive" }, { "name": "Bölüm 3", "url": "https://voe.sx/hl2oh2urdan4", "type": "voe" }] },
-            { "number": 4, "sources": [{ "name": "Bölüm 4", "url": "https://drive.google.com/file/d/1x_3I3Gbp1Jlui5CgtCzjuhb928cD4rzJ/preview", "type": "gdrive" }, { "name": "Bölüm 4", "url": "https://voe.sx/tepyyvxkemun", "type": "voe" }] },
-            { "number": 5, "sources": [{ "name": "Bölüm 5", "url": "https://drive.google.com/file/d/15kVgemPfVWZvW7iDVo0ZGnzQZpLtsV6i/preview", "type": "gdrive" }, { "name": "Bölüm 5", "url": "https://voe.sx/5zadf2fyw61d", "type": "voe" }] },
-            { "number": 6, "sources": [{ "name": "Bölüm 6", "url": "https://drive.google.com/file/d/10_SR2nry-9OrQeI8dZeaCVagX4X_5TNg/preview", "type": "gdrive" }, { "name": "Bölüm 6", "url": "https://voe.sx/al4te94ouyrt", "type": "voe" }] },
-            { "number": 7, "sources": [{ "name": "Bölüm 7", "url": "https://drive.google.com/file/d/1DrG_2_hZ8oGckuPQaUfoGONPVKSwDN7p/preview", "type": "gdrive" }, { "name": "Bölüm 7", "url": "https://voe.sx/vgmgqmefturs", "type": "voe" }] },
-            { "number": 8, "sources": [{ "name": "Bölüm 8", "url": "https://drive.google.com/file/d/1gbTtfwSyQThyNAOaW8SV4duHW33GmQC1/preview", "type": "gdrive" }, { "name": "Bölüm 8", "url": "https://voe.sx/feg6zbpo2hzn", "type": "voe" }, { "name": "Bölüm 8", "url": "https://video.sibnet.ru/video6147458", "type": "sibnet" }] },
-            { "number": 9, "sources": [{ "name": "Bölüm 9", "url": "https://drive.google.com/file/d/1dcMZ09vSDM8Dsz0qF7i6Hz-hZpH7z1li/preview", "type": "gdrive" }, { "name": "Bölüm 9", "url": "https://voe.sx/ohbcao9abyre", "type": "voe" }, { "name": "Bölüm 9", "url": "https://video.sibnet.ru/video6147452", "type": "sibnet" }] },
-            { "number": 10, "sources": [{ "name": "Bölüm 10", "url": "https://drive.google.com/file/d/1GybBvnwihQc-PWClZRL4ttxTCxi_PBFK/preview", "type": "gdrive" }, { "name": "Bölüm 10", "url": "https://voe.sx/6bmejuztql7i", "type": "voe" }, { "name": "Bölüm 10", "url": "https://video.sibnet.ru/video6154223", "type": "sibnet" }] }
+            {
+              "number": 1,
+              "sources": [
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://drive.google.com/file/d/1XmDeGdIF-R72qxdcrpkMLt9ZhpEBv2E1/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://voe.sx/3pvg319fnohg",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "sources": [
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://drive.google.com/file/d/1XmDeGdIF-R72qxdcrpkMLt9ZhpEBv2E1/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://voe.sx/xbxluqloiput",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "sources": [
+                {
+                  "name": "Bölüm 3",
+                  "url": "https://drive.google.com/file/d/1N2nRZ5S5ot8wL-8MFP93AIpknv-vZfmy/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 3",
+                  "url": "https://voe.sx/hl2oh2urdan4",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "sources": [
+                {
+                  "name": "Bölüm 4",
+                  "url": "https://drive.google.com/file/d/1x_3I3Gbp1Jlui5CgtCzjuhb928cD4rzJ/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 4",
+                  "url": "https://voe.sx/tepyyvxkemun",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "sources": [
+                {
+                  "name": "Bölüm 5",
+                  "url": "https://drive.google.com/file/d/15kVgemPfVWZvW7iDVo0ZGnzQZpLtsV6i/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 5",
+                  "url": "https://voe.sx/5zadf2fyw61d",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "sources": [
+                {
+                  "name": "Bölüm 6",
+                  "url": "https://drive.google.com/file/d/10_SR2nry-9OrQeI8dZeaCVagX4X_5TNg/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 6",
+                  "url": "https://voe.sx/al4te94ouyrt",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 7,
+              "sources": [
+                {
+                  "name": "Bölüm 7",
+                  "url": "https://drive.google.com/file/d/1DrG_2_hZ8oGckuPQaUfoGONPVKSwDN7p/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 7",
+                  "url": "https://voe.sx/vgmgqmefturs",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "sources": [
+                {
+                  "name": "Bölüm 8",
+                  "url": "https://drive.google.com/file/d/1gbTtfwSyQThyNAOaW8SV4duHW33GmQC1/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 8",
+                  "url": "https://voe.sx/feg6zbpo2hzn",
+                  "type": "voe"
+                },
+                {
+                  "name": "Bölüm 8",
+                  "url": "https://video.sibnet.ru/video6147458",
+                  "type": "sibnet"
+                }
+              ]
+            },
+            {
+              "number": 9,
+              "sources": [
+                {
+                  "name": "Bölüm 9",
+                  "url": "https://drive.google.com/file/d/1dcMZ09vSDM8Dsz0qF7i6Hz-hZpH7z1li/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 9",
+                  "url": "https://voe.sx/ohbcao9abyre",
+                  "type": "voe"
+                },
+                {
+                  "name": "Bölüm 9",
+                  "url": "https://video.sibnet.ru/video6147452",
+                  "type": "sibnet"
+                }
+              ]
+            },
+            {
+              "number": 10,
+              "sources": [
+                {
+                  "name": "Bölüm 10",
+                  "url": "https://drive.google.com/file/d/1GybBvnwihQc-PWClZRL4ttxTCxi_PBFK/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 10",
+                  "url": "https://voe.sx/6bmejuztql7i",
+                  "type": "voe"
+                },
+                {
+                  "name": "Bölüm 10",
+                  "url": "https://video.sibnet.ru/video6154223",
+                  "type": "sibnet"
+                }
+              ]
+            }
           ]
         }
       ]
@@ -210,25 +715,187 @@
     {
       "id": "yuusha-party-kawaii",
       "searchTitle": "Yuusha Party ni Kawaii",
-      "image": "https://cdn.myanimelist.net/images/anime/1068/141071.jpg",
+      "image": "https://myanimelist.net/images/anime/1573/152828l.jpg",
       "title": "Yuusha Party ni Kawaii Ko ga Ita node",
       "description": "Kahraman partisindeki tatlı kıza ilan-ı aşk eden bir gencin hikayesi.",
-      "tags": ["Romantik", "Fantezi"],
+      "tags": [
+        "Romantik",
+        "Fantezi"
+      ],
       "seasons": [
         {
           "name": "Sezon 1",
           "episodes": [
-            { "number": 1, "sources": [{ "name": "Bölüm 1", "url": "https://drive.google.com/file/d/10pa7ejAGBLNbPHbBhD1VBmzQaAZ5Ud2G/preview", "type": "gdrive" }, { "name": "Bölüm 1", "url": "https://voe.sx/q3ww2gijlh5b", "type": "voe" }] },
-            { "number": 2, "sources": [{ "name": "Bölüm 2", "url": "https://drive.google.com/file/d/1PJ1J_fyTF4R6yCmsaayiD8TnGZrutaDA/preview", "type": "gdrive" }, { "name": "Bölüm 2", "url": "https://voe.sx/ecukcyx2v4vw", "type": "voe" }] },
-            { "number": 3, "sources": [{ "name": "Bölüm 3", "url": "https://drive.google.com/file/d/1kDgKq1q5VX5X60XaQl7xPZjoL8Ydlnb2/preview", "type": "gdrive" }, { "name": "Bölüm 3", "url": "https://voe.sx/o9vcxjwdhjzk", "type": "voe" }] },
-            { "number": 4, "sources": [{ "name": "Bölüm 4", "url": "https://drive.google.com/file/d/18DqmAVGGl0xhqkJFeYCbLZOA-P4XWhcC/preview", "type": "gdrive" }, { "name": "Bölüm 4", "url": "https://voe.sx/duu0iueottnj", "type": "voe" }] },
-            { "number": 5, "sources": [{ "name": "Bölüm 5", "url": "https://drive.google.com/file/d/1EZD4m7uxiTsJob2aUs4_HltAibzx9ulU/preview", "type": "gdrive" }, { "name": "Bölüm 5", "url": "https://voe.sx/ozpidcfgnnxd", "type": "voe" }] },
-            { "number": 6, "sources": [{ "name": "Bölüm 6", "url": "https://drive.google.com/file/d/1sKCewuQ9lc0rh9U2kRiqft5fGGMcyPWY/preview", "type": "gdrive" }, { "name": "Bölüm 6", "url": "https://voe.sx/wwr4xuybv4us", "type": "voe" }] },
-            { "number": 7, "sources": [{ "name": "Bölüm 7", "url": "https://drive.google.com/file/d/1dMCKGtFBUQ8RVBe02roZOXkc9tAgkvHy/preview", "type": "gdrive" }, { "name": "Bölüm 7", "url": "https://voe.sx/oehvv3awybcf", "type": "voe" }] },
-            { "number": 8, "sources": [{ "name": "Bölüm 8", "url": "https://drive.google.com/file/d/1B1QZjLnd86NwPFeBo6LZqgHfIxVf3AkN/preview", "type": "gdrive" }, { "name": "Bölüm 8", "url": "https://voe.sx/q79yeh4az8hb", "type": "voe" }] },
-            { "number": 9, "sources": [{ "name": "Bölüm 9", "url": "https://drive.google.com/file/d/1---D6bjpjnn__t0T6KqrIU1Vu31QyVEE/preview", "type": "gdrive" }, { "name": "Bölüm 9", "url": "https://voe.sx/rev4spe64rlf", "type": "voe" }] },
-            { "number": 10, "sources": [{ "name": "Bölüm 10", "url": "https://drive.google.com/file/d/12pxxQMQ060cPICt85RKlAZl28LZXslZH/preview", "type": "gdrive" }, { "name": "Bölüm 10", "url": "https://voe.sx/qsqcrxewpikt", "type": "voe" }] },
-            { "number": 11, "sources": [{ "name": "Bölüm 11", "url": "https://drive.google.com/file/d/1XRVqbIASVl7E3pCqgE7ez473BtviHsTW/preview", "type": "gdrive" }, { "name": "Bölüm 11", "url": "https://voe.sx/icg3a0tcxtm7", "type": "voe" }, { "name": "Bölüm 11", "url": "https://video.sibnet.ru/video6149402", "type": "sibnet" }] }
+            {
+              "number": 1,
+              "sources": [
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://drive.google.com/file/d/10pa7ejAGBLNbPHbBhD1VBmzQaAZ5Ud2G/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 1",
+                  "url": "https://voe.sx/q3ww2gijlh5b",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "sources": [
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://drive.google.com/file/d/1PJ1J_fyTF4R6yCmsaayiD8TnGZrutaDA/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 2",
+                  "url": "https://voe.sx/ecukcyx2v4vw",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "sources": [
+                {
+                  "name": "Bölüm 3",
+                  "url": "https://drive.google.com/file/d/1kDgKq1q5VX5X60XaQl7xPZjoL8Ydlnb2/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 3",
+                  "url": "https://voe.sx/o9vcxjwdhjzk",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "sources": [
+                {
+                  "name": "Bölüm 4",
+                  "url": "https://drive.google.com/file/d/18DqmAVGGl0xhqkJFeYCbLZOA-P4XWhcC/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 4",
+                  "url": "https://voe.sx/duu0iueottnj",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "sources": [
+                {
+                  "name": "Bölüm 5",
+                  "url": "https://drive.google.com/file/d/1EZD4m7uxiTsJob2aUs4_HltAibzx9ulU/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 5",
+                  "url": "https://voe.sx/ozpidcfgnnxd",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "sources": [
+                {
+                  "name": "Bölüm 6",
+                  "url": "https://drive.google.com/file/d/1sKCewuQ9lc0rh9U2kRiqft5fGGMcyPWY/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 6",
+                  "url": "https://voe.sx/wwr4xuybv4us",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 7,
+              "sources": [
+                {
+                  "name": "Bölüm 7",
+                  "url": "https://drive.google.com/file/d/1dMCKGtFBUQ8RVBe02roZOXkc9tAgkvHy/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 7",
+                  "url": "https://voe.sx/oehvv3awybcf",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "sources": [
+                {
+                  "name": "Bölüm 8",
+                  "url": "https://drive.google.com/file/d/1B1QZjLnd86NwPFeBo6LZqgHfIxVf3AkN/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 8",
+                  "url": "https://voe.sx/q79yeh4az8hb",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 9,
+              "sources": [
+                {
+                  "name": "Bölüm 9",
+                  "url": "https://drive.google.com/file/d/1---D6bjpjnn__t0T6KqrIU1Vu31QyVEE/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 9",
+                  "url": "https://voe.sx/rev4spe64rlf",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 10,
+              "sources": [
+                {
+                  "name": "Bölüm 10",
+                  "url": "https://drive.google.com/file/d/12pxxQMQ060cPICt85RKlAZl28LZXslZH/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 10",
+                  "url": "https://voe.sx/qsqcrxewpikt",
+                  "type": "voe"
+                }
+              ]
+            },
+            {
+              "number": 11,
+              "sources": [
+                {
+                  "name": "Bölüm 11",
+                  "url": "https://drive.google.com/file/d/1XRVqbIASVl7E3pCqgE7ez473BtviHsTW/preview",
+                  "type": "gdrive"
+                },
+                {
+                  "name": "Bölüm 11",
+                  "url": "https://voe.sx/icg3a0tcxtm7",
+                  "type": "voe"
+                },
+                {
+                  "name": "Bölüm 11",
+                  "url": "https://video.sibnet.ru/video6149402",
+                  "type": "sibnet"
+                }
+              ]
+            }
           ]
         }
       ]
