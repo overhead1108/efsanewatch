@@ -58,12 +58,12 @@ function App() {
   const getEmbedUrl = (url) => {
     if (!url) return "";
     let processedUrl = url;
-    
+
     // Gdrive düzeltme
     if (processedUrl.includes("drive.google.com/file/d/")) {
       processedUrl = processedUrl.replace(/\/view(\?.*)?$/i, "/preview");
     }
-    
+
     // Voe düzeltme (Sadece video player'ın çıkması için araya 'e' ekler)
     if (processedUrl.includes("voe.sx/") && !processedUrl.includes("/e/")) {
       processedUrl = processedUrl.replace("voe.sx/", "voe.sx/e/");
@@ -73,7 +73,7 @@ function App() {
     if (processedUrl.includes("video.sibnet.ru/video") && !processedUrl.includes("shell.php")) {
       processedUrl = processedUrl.replace("video.sibnet.ru/video", "video.sibnet.ru/shell.php?videoid=");
     }
-    
+
     return processedUrl;
   };
 
@@ -148,7 +148,7 @@ function App() {
             <button className="back-btn" onClick={handleBack}>
               ← Tüm Serilere Dön
             </button>
- 
+
             <div className="detail-header">
               {covers[selectedAnime.id] ? (
                 <img src={covers[selectedAnime.id]} alt={selectedAnime.title} className="detail-cover" />
