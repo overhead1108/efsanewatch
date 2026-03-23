@@ -20,6 +20,13 @@ function App() {
   const [selectedChapter, setSelectedChapter] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [mangaEndReached, setMangaEndReached] = useState(false);
+  const [isMobileForced, setIsMobileForced] = useState(() => {
+    return localStorage.getItem('isMobileForced') === 'true';
+  });
+
+  useEffect(() => {
+    localStorage.setItem('isMobileForced', isMobileForced);
+  }, [isMobileForced]);
 
   useEffect(() => {
     document.title = viewMode === 'manga' ? 'efsanemanga' : 'efsanewatch';
@@ -88,7 +95,7 @@ function App() {
 
   return (
     <>
-    <div className={`app-container ${viewMode}-mode`}>
+    <div className={`app-container ${viewMode}-mode ${isMobileForced ? 'force-mobile' : ''}`}>
       {/* HEADER */}
       <header className="header">
         <div key={viewMode} className="logo shadow-in" onClick={handleBack}>
@@ -295,6 +302,43 @@ function App() {
           </div>
         )}
       </main>
+
+      {/* FOOTER */}
+      <footer className="footer" style={{ 
+        padding: "3rem 5% 5rem 5%", 
+        borderTop: "1px solid var(--border-glass)", 
+        marginTop: "auto", 
+        textAlign: "center",
+        background: "rgba(0,0,0,0.5)"
+      }}>
+        <div className="logo shadow-in" style={{ marginBottom: "1.5rem" }} onClick={handleBack}>
+          <span className="logo-text text-gradient" style={{ fontSize: "2rem" }}>
+            {viewMode === 'manga' ? 'efsanemanga' : 'efsanewatch'}
+          </span>
+          <span className="logo-v text-gradient">v2</span>
+        </div>
+        <div style={{ display: "flex", justifyContent: "center", gap: "2rem", flexWrap: "wrap", alignItems: "center" }}>
+          <a 
+            href="https://discord.gg/FvRcWdtmXP" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="text-gradient"
+            style={{ fontWeight: "800", textDecoration: "none" }}
+          >
+            Discord Sunucumuz
+          </a>
+          <button 
+            className={`episode-btn ${isMobileForced ? 'active' : ''}`}
+            onClick={() => setIsMobileForced(!isMobileForced)}
+            style={{ fontSize: "0.8rem", padding: "0.4rem 1rem" }}
+          >
+            Mobil Görünüm (Zorla) {isMobileForced ? '[AÇIK]' : '[KAPALI]'}
+          </button>
+        </div>
+        <p className="text-muted" style={{ marginTop: "2rem", fontSize: "0.85rem" }}>
+          © {new Date().getFullYear()} - Efsanewatch Tüm hakları saklıdır.
+        </p>
+      </footer>
     </div>
 
     {/* MANGA NAV BAR - Outside app-container for fixed positioning */}

@@ -601,107 +601,46 @@ html, body {
   width: 100%;
 }
 
+/* MOBILE & FORCED MOBILE STYLES */
 @media (max-width: 850px) {
-  .header {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 1rem !important;
-    padding: 1.2rem !important;
-    align-items: center !important;
-    height: auto !important;
-    text-align: center !important;
-  }
-  
-  .logo {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    width: 100% !important;
-    order: 1 !important;
-  }
-
-  .logo-text {
-    font-size: 2.5rem !important;
-  }
-
-  .logo-v {
-    margin-left: 0 !important;
-    margin-top: -5px !important;
-    align-self: center !important;
-  }
-  
-  .mode-toggle {
-    width: auto !important;
-    max-width: 200px !important;
-    display: flex !important;
-    margin: 0 auto !important;
-    order: 2 !important;
-  }
-  
-  .mode-btn {
-    flex: 1;
-    padding: 0.4rem 1rem !important;
-    font-size: 0.8rem !important;
-    letter-spacing: 0.1px !important;
-  }
-
-  .main-content {
-    padding: 1rem 5% !important;
-  }
-
-  .detail-header {
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    gap: 1.5rem !important;
-  }
-  
-  .detail-cover {
-    width: 220px !important;
-    max-width: 100% !important;
-    margin: 0 auto !important;
-    border-radius: var(--radius-lg) !important;
-  }
-
-  .detail-info {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 1.5rem !important;
-    text-align: center !important;
-  }
-
-  .detail-title {
-    font-size: 1.8rem !important;
-    text-align: center !important;
-  }
-
-  .anime-titles {
-    align-items: center !important;
-  }
-
-  .detail-desc {
-    text-align: center !important;
-    padding: 0 !important;
-    font-size: 0.95rem !important;
-  }
-
-  .anime-tags {
-    justify-content: center !important;
-  }
-  
-  .selection-row {
-    flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
-  }
-
-  .selection-group {
-    min-width: 100%;
-  }
-  
-  .back-btn {
-    padding: 1rem 0;
-  }
+  .header { display: flex !important; flex-direction: column !important; gap: 1rem !important; padding: 1.2rem !important; align-items: center !important; height: auto !important; text-align: center !important; }
+  .logo { display: flex !important; flex-direction: column !important; align-items: center !important; width: 100% !important; order: 1 !important; }
+  .logo-text { font-size: 2.5rem !important; }
+  .logo-v { margin-left: 0 !important; margin-top: -5px !important; align-self: center !important; }
+  .mode-toggle { width: auto !important; max-width: 200px !important; display: flex !important; margin: 0 auto !important; order: 2 !important; }
+  .mode-btn { flex: 1; padding: 0.4rem 1rem !important; font-size: 0.8rem !important; letter-spacing: 0.1px !important; }
+  .main-content { padding: 1rem 5% !important; }
+  .detail-header { flex-direction: column !important; align-items: center !important; text-align: center !important; gap: 1.5rem !important; }
+  .detail-cover { width: 220px !important; max-width: 100% !important; margin: 0 auto !important; border-radius: var(--radius-lg) !important; }
+  .detail-info { display: flex !important; flex-direction: column !important; align-items: center !important; gap: 1.5rem !important; text-align: center !important; }
+  .detail-title { font-size: 1.8rem !important; text-align: center !important; }
+  .anime-titles { align-items: center !important; }
+  .detail-desc { text-align: center !important; padding: 0 !important; font-size: 0.95rem !important; }
+  .anime-tags { justify-content: center !important; }
+  .selection-row { flex-direction: column; gap: 1rem; padding: 1rem; }
+  .selection-group { min-width: 100%; }
+  .back-btn { padding: 1rem 0; }
+  .anime-grid { grid-template-columns: 1fr !important; gap: 1.5rem !important; }
 }
+
+/* Duplicated for Force-Mobile class support */
+.force-mobile .header { display: flex !important; flex-direction: column !important; gap: 1rem !important; padding: 1.2rem !important; align-items: center !important; height: auto !important; text-align: center !important; }
+.force-mobile .logo { display: flex !important; flex-direction: column !important; align-items: center !important; width: 100% !important; order: 1 !important; }
+.force-mobile .logo-text { font-size: 2.5rem !important; }
+.force-mobile .logo-v { margin-left: 0 !important; margin-top: -5px !important; align-self: center !important; }
+.force-mobile .mode-toggle { width: auto !important; max-width: 200px !important; display: flex !important; margin: 0 auto !important; order: 2 !important; }
+.force-mobile .mode-btn { flex: 1; padding: 0.4rem 1rem !important; font-size: 0.8rem !important; letter-spacing: 0.1px !important; }
+.force-mobile .main-content { padding: 1rem 5% !important; }
+.force-mobile .detail-header { flex-direction: column !important; align-items: center !important; text-align: center !important; gap: 1.5rem !important; }
+.force-mobile .detail-cover { width: 220px !important; max-width: 100% !important; margin: 0 auto !important; border-radius: var(--radius-lg) !important; }
+.force-mobile .detail-info { display: flex !important; flex-direction: column !important; align-items: center !important; gap: 1.5rem !important; text-align: center !important; }
+.force-mobile .detail-title { font-size: 1.8rem !important; text-align: center !important; }
+.force-mobile .anime-titles { align-items: center !important; }
+.force-mobile .detail-desc { text-align: center !important; padding: 0 !important; font-size: 0.95rem !important; }
+.force-mobile .anime-tags { justify-content: center !important; }
+.force-mobile .selection-row { flex-direction: column; gap: 1rem; padding: 1rem; }
+.force-mobile .selection-group { min-width: 100%; }
+.force-mobile .back-btn { padding: 1rem 0; }
+.force-mobile .anime-grid { grid-template-columns: 1fr !important; gap: 1.5rem !important; }
+
 
