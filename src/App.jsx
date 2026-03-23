@@ -83,7 +83,14 @@ function App() {
       <header className="header" style={{ padding: "1rem 5%" }}>
         <div className="logo" onClick={handleBack}>
           <img src="./logo.png" alt="efsanewatch" style={{ height: "75px", objectFit: "contain" }} />
-          <span style={{ fontSize: "0.8rem", color: "var(--accent-color)", alignSelf: "flex-end", marginBottom: "15px", marginLeft: "-10px", fontWeight: "700" }}>v1</span>
+          <span style={{ 
+            fontSize: "0.8rem", 
+            color: "#94b9ff",
+            alignSelf: "flex-end", 
+            marginBottom: "15px", 
+            marginLeft: "-10px", 
+            fontWeight: "700" 
+          }}>v1</span>
         </div>
       </header>
 
