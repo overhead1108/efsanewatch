@@ -116,22 +116,21 @@ function App() {
       <main className="main-content">
         {!selectedItem ? (
           /* GRID VIEW */
-          <div style={{ textAlign: "center", paddingTop: "2rem" }}>
-            <div className="search-container" style={{ marginBottom: "3rem", maxWidth: "600px", margin: "0 auto 3rem auto" }}>
+          <div className="home-content">
+            <div className="search-container">
               <input
                 type="text"
-                className="select-box"
-                style={{ width: "100%", padding: "1.2rem", backgroundImage: "none", fontSize: "1.1rem" }}
+                className="select-box search-input"
                 placeholder={`${viewMode === 'anime' ? 'Anime' : 'Manga'} Ara...`}
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
               />
             </div>
 
-            <h1 style={{ marginBottom: "0.5rem", fontSize: "2.5rem" }}>
+            <h1 className="home-title">
               En Yeni <span className="text-gradient">{viewMode === 'anime' ? 'Bölümler' : 'Mangalar'}</span>
             </h1>
-            <p className="text-muted" style={{ marginBottom: "2rem", fontSize: "1.1rem" }}>
+            <p className="home-subtitle text-muted">
               Aradığınız seriyi seçerek {viewMode === 'anime' ? 'bölümlere' : 'okumaya'} ulaşabilirsiniz.
             </p>
 
