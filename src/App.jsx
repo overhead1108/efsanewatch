@@ -336,7 +336,7 @@ function App() {
           </button>
         </div>
         <p className="text-muted" style={{ marginTop: "2rem", fontSize: "0.85rem" }}>
-          © {new Date().getFullYear()} - Efsanewatch Tüm hakları saklıdır.
+          © {new Date().getFullYear()} - Efsaneyiz Fansub Tüm hakları saklıdır.
         </p>
       </footer>
     </div>
