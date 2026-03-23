@@ -158,8 +158,9 @@ h1, h2, h3, h4, h5, h6 {
   align-self: flex-start;
 }
 
-.anime-mode .logo-v { color: #94b9ff; }
-.manga-mode .logo-v { color: #ffa9f9; }
+.logo-v.text-gradient {
+  background-image: linear-gradient(90deg, #ffffff 0%, #d1d5db 25%, #ffffff 50%, #d1d5db 75%, #ffffff 100%) !important;
+}
 
 .logo:hover {
   transform: scale(1.02);
@@ -171,10 +172,38 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-content {
   flex: 1;
-  padding: 2rem 5%;
-  max-width: 1400px;
+  padding: 2rem 4%;
+  max-width: 1600px;
   margin: 0 auto;
   width: 100%;
+}
+
+.home-title {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-subtitle {
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+}
+
+.search-container {
+  margin-bottom: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 1200px;
+  padding: 1.2rem 1.8rem;
+  background-image: none !important;
+  font-size: 1.15rem;
+  box-sizing: border-box;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.03);
 }
 
 /* Grid & Cards */
@@ -187,8 +216,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 600px) {
   .anime-grid {
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    gap: 1rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 
@@ -503,11 +532,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .anime-mode .mode-btn.active {
-  background-image: linear-gradient(90deg, #7c9cf8 0%, #94b9ff 25%, #7c9cf8 50%, #94b9ff 75%, #7c9cf8 100%);
+  background-image: linear-gradient(90deg, #cdffd8 0%, #94b9ff 25%, #cdffd8 50%, #94b9ff 75%, #cdffd8 100%);
 }
 
 .manga-mode .mode-btn.active {
-  background-image: linear-gradient(90deg, #ffa9f9 0%, #fff7ad 25%, #ffa9f9 50%, #fff7ad 75%, #ffa9f9 100%);
+  background-image: linear-gradient(90deg, #fff7ad 0%, #ffa9f9 25%, #fff7ad 50%, #ffa9f9 75%, #fff7ad 100%);
 }
 
 /* Ensure accents are used everywhere */
@@ -537,16 +566,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Ensure content doesn't get hidden under fixed nav */
 .manga-viewer {
-  padding-bottom: 200px;
-}
-
-.manga-viewer {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
   background: #000;
   border-radius: var(--radius-lg);
   padding: 1rem;
+  padding-bottom: 200px;
   border: 1px solid var(--border-glass);
 }
 
@@ -603,46 +629,44 @@ html, body {
   }
 
   .detail-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1.5rem;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 1.5rem !important;
   }
   
   .detail-cover {
-    width: 250px;
-    height: auto;
-    border-radius: var(--radius-lg);
+    width: 220px !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    border-radius: var(--radius-lg) !important;
   }
 
   .detail-info {
-    order: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+    text-align: center !important;
+  }
+
+  .detail-title {
+    font-size: 1.8rem !important;
+    text-align: center !important;
   }
 
   .anime-titles {
-    order: 1;
-    align-items: center;
+    align-items: center !important;
   }
 
   .detail-desc {
-    order: 2;
-    text-align: center;
-    padding: 0;
-    font-size: 0.95rem;
+    text-align: center !important;
+    padding: 0 !important;
+    font-size: 0.95rem !important;
   }
 
   .anime-tags {
-    order: 3;
-    justify-content: center;
-  }
-  
-  .manga-section, .episodes-section {
-    order: 3;
-    margin-top: 2rem;
+    justify-content: center !important;
   }
   
   .selection-row {
