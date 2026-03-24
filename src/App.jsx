@@ -1,9 +1,13 @@
 import { useState, useEffect } from 'react';
 import configData from './data/config.json';
 import './index.css';
+import PWAInstallPrompt from './components/PWAInstallPrompt';
 
 function App() {
   const [viewMode, setViewMode] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    const mode = params.get('mode');
+    if (mode === 'anime' || mode === 'manga') return mode;
     return localStorage.getItem('viewMode') || 'anime';
   }); 
 
@@ -305,7 +309,7 @@ function App() {
 
       {/* FOOTER */}
       <footer className="footer" style={{ 
-        padding: "3rem 5% 5rem 5%", 
+        padding: "3rem 5% calc(5rem + env(safe-area-inset-bottom, 0px)) 5%", 
         borderTop: "1px solid var(--border-glass)", 
         marginTop: "auto", 
         textAlign: "center",
@@ -339,6 +343,7 @@ function App() {
           © {new Date().getFullYear()} - Efsanewatch Tüm hakları saklıdır.
         </p>
       </footer>
+      <PWAInstallPrompt />
     </div>
 
     {/* MANGA NAV BAR - Outside app-container for fixed positioning */}
