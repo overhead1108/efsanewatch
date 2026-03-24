@@ -1,54 +1,19 @@
 import React, { useState, useEffect } from 'react';
 
 const PWAInstallPrompt = () => {
-  const [isIOS, setIsIOS] = useState(false);
-  const [deferredPrompt, setDeferredPrompt] = useState(null);
   const [showPrompt, setShowPrompt] = useState(false);
 
   useEffect(() => {
-    // IOS Detection
-    const ios = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    // ONLY show for iOS
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     const isStandalone = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
-    setIsIOS(ios);
 
-    // Initial check for iOS
-    if (ios && !isStandalone) {
+    // Show only on iOS if not already installed/standalone
+    if (isIOS && !isStandalone) {
       const timer = setTimeout(() => setShowPrompt(true), 3000);
       return () => clearTimeout(timer);
     }
-
-    // Android/Chrome beforeinstallprompt event
-    const handleBeforeInstallPrompt = (e) => {
-      // Prevent the default mini-infobar from appearing on mobile
-      e.preventDefault();
-      // Stash the event so it can be triggered later.
-      setDeferredPrompt(e);
-      // Wait for a few seconds before showing our custom prompt
-      setTimeout(() => setShowPrompt(true), 4000);
-    };
-
-    window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-
-    return () => {
-      window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt);
-    };
   }, []);
-
-  const handleAndroidInstall = () => {
-    if (!deferredPrompt) return;
-    // Show the install prompt
-    deferredPrompt.prompt();
-    // Wait for the user to respond to the prompt
-    deferredPrompt.userChoice.then((choiceResult) => {
-      if (choiceResult.outcome === 'accepted') {
-        console.log('User accepted the install prompt');
-      } else {
-        console.log('User dismissed the install prompt');
-      }
-      setDeferredPrompt(null);
-      setShowPrompt(false);
-    });
-  };
 
   if (!showPrompt) return null;
 
@@ -56,29 +21,20 @@ const PWAInstallPrompt = () => {
     <div className="pwa-prompt shadow-in">
       <div className="pwa-prompt-content">
         <div className="pwa-prompt-header">
-          <img src="/pwaicon.png" alt="App Icon" className="pwa-prompt-icon" />
           <div className="pwa-prompt-text">
-            <h4>{isIOS ? 'Ana Ekrana Ekle' : 'Uygulamayı Yükle'}</h4>
-            <p>Daha hızlı erişim ve tam ekran deneyimi için efsanewatch'u {isIOS ? 'ana ekranınıza ekleyin' : 'telefonunuza yükleyin'}.</p>
+            <h4>Ana Ekrana Ekle</h4>
+            <p>Bu uygulamayı tam ekran kullanmak için ana ekranınıza ekleyin.</p>
           </div>
           <button className="pwa-prompt-close" onClick={() => setShowPrompt(false)}>×</button>
         </div>
         
-        {isIOS ? (
-          <div className="pwa-prompt-footer">
-            <span>Alttaki paylaş </span>
-            <svg className="ios-share-icon" width="20" height="20" viewBox="0 0 50 50">
-              <path fill="#007AFF" d="M30.3,13.7L25,8.4l-5.3,5.3l-1.4-1.4L25,5.6l6.7,6.7L30.3,13.7z M24,30.3V8.4h2v21.9H24z M13,19h6v2h-6v22h24V21h-6v-2h8 v26H11V19H13z" />
-            </svg>
-            <span> butonuna basın ve ardından <b>"Ana Ekrana Ekle"</b> seçeneğini seçin.</span>
-          </div>
-        ) : (
-          <div className="pwa-prompt-footer" style={{ justifyContent: 'center' }}>
-            <button className="episode-btn active" onClick={handleAndroidInstall} style={{ padding: '0.6rem 2rem', width: '100%', borderRadius: '12px' }}>
-              Şimdi Yükle
-            </button>
-          </div>
-        )}
+        <div className="pwa-prompt-footer">
+          <span>Alttaki paylaş </span>
+          <svg className="ios-share-icon" width="20" height="20" viewBox="0 0 50 50">
+            <path fill="#007AFF" d="M30.3,13.7L25,8.4l-5.3,5.3l-1.4-1.4L25,5.6l6.7,6.7L30.3,13.7z M24,30.3V8.4h2v21.9H24z M13,19h6v2h-6v22h24V21h-6v-2h8 v26H11V19H13z" />
+          </svg>
+          <span> butonuna basın ve ardından <b>"Ana Ekrana Ekle"</b> seçeneğini seçin.</span>
+        </div>
       </div>
       <style>{`
         .pwa-prompt {
@@ -108,7 +64,7 @@ const PWAInstallPrompt = () => {
         .pwa-prompt-content {
           display: flex;
           flex-direction: column;
-          gap: 15px;
+          gap: 12px;
         }
 
         .pwa-prompt-header {
@@ -116,13 +72,6 @@ const PWAInstallPrompt = () => {
           align-items: center;
           gap: 14px;
           position: relative;
-        }
-
-        .pwa-prompt-icon {
-          width: 52px;
-          height: 52px;
-          border-radius: 12px;
-          box-shadow: 0 4px 12px rgba(0,0,0,0.3);
         }
 
         .pwa-prompt-text h4 {
@@ -154,12 +103,6 @@ const PWAInstallPrompt = () => {
           display: flex;
           align-items: center;
           justify-content: center;
-          transition: 0.2s;
-        }
-        
-        .pwa-prompt-close:hover {
-          color: white;
-          background: rgba(255,255,255,0.15);
         }
 
         .pwa-prompt-footer {

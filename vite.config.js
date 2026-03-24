@@ -18,8 +18,8 @@ export default defineConfig({
         background_color: '#000000',
         display: 'standalone',
         orientation: 'any',
-        scope: '/',
-        start_url: '/',
+        scope: '/efsanewatch/',
+        start_url: '/efsanewatch/',
         categories: ['entertainment', 'video', 'books'],
         icons: [
           {
@@ -45,14 +45,14 @@ export default defineConfig({
             name: 'Anime İzle',
             short_name: 'Anime',
             description: 'En yeni animeleri izle',
-            url: '/?mode=anime',
+            url: '/efsanewatch/?mode=anime',
             icons: [{ src: 'pwaicon.png', sizes: '192x192' }]
           },
           {
             name: 'Manga Oku',
             short_name: 'Manga',
             description: 'En yeni mangaları oku',
-            url: '/?mode=manga',
+            url: '/efsanewatch/?mode=manga',
             icons: [{ src: 'pwaicon.png', sizes: '192x192' }]
           }
         ]
