@@ -32,23 +32,6 @@ function App() {
     localStorage.setItem('isMobileForced', isMobileForced);
   }, [isMobileForced]);
 
-  useEffect(() => {
-    if ('Notification' in window && Notification.permission === 'default') {
-      // Don't ask immediately, wait for user interaction or show a button
-    }
-  }, []);
-
-  const requestNotificationPermission = async () => {
-    if ('Notification' in window) {
-      const permission = await Notification.requestPermission();
-      if (permission === 'granted') {
-        new Notification("Efsanewatch", {
-          body: "Bildirimler başarıyla açıldı! Yeni bölümlerden haberdar olacaksınız.",
-          icon: "./pwaicon.png"
-        });
-      }
-    }
-  };
 
   useEffect(() => {
     document.title = viewMode === 'manga' ? 'efsanemanga' : 'efsanewatch';
@@ -356,16 +339,6 @@ function App() {
           >
             Mobil Görünüm (Zorla) {isMobileForced ? '[AÇIK]' : '[KAPALI]'}
           </button>
-          
-          {('Notification' in window && Notification.permission !== 'granted') && (
-            <button 
-              className="episode-btn active"
-              onClick={requestNotificationPermission}
-              style={{ fontSize: "0.8rem", padding: "0.4rem 1rem", background: "var(--accent-glow)" }}
-            >
-              Bildirimleri Aç 🔔
-            </button>
-          )}
         </div>
         <p className="text-muted" style={{ marginTop: "2rem", fontSize: "0.85rem" }}>
           © {new Date().getFullYear()} - Efsaneyiz Fansub Tüm hakları saklıdır.
