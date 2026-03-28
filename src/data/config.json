@@ -185,7 +185,8 @@
             { "number": 8, "sources": [{ "name": "Bölüm 8", "url": "https://drive.google.com/file/d/14TRzsmksXIuvVxr-CHRhnZp1rai7jWD5/preview", "type": "gdrive" }, { "name": "Bölüm 8", "url": "https://voe.sx/0epolnsrh317", "type": "voe" }] },
             { "number": 9, "sources": [{ "name": "Bölüm 9", "url": "https://drive.google.com/file/d/1Gaiq8r6C-rJqYWKzvBTU4o9PaV3aspBa/preview", "type": "gdrive" }, { "name": "Bölüm 9", "url": "https://voe.sx/lq3kp7hcr2po", "type": "voe" }] },
             { "number": 10, "sources": [{ "name": "Bölüm 10", "url": "https://drive.google.com/file/d/1OEMHM7fZm4TbkkhfNsff22xDg7XQwQ91/preview", "type": "gdrive" }, { "name": "Bölüm 10", "url": "https://voe.sx/bhksz3vfklwr", "type": "voe" }, { "name": "Bölüm 10", "url": "https://video.sibnet.ru/video6147616", "type": "sibnet" }] },
-            { "number": 11, "sources": [{ "name": "Bölüm 11", "url": "https://drive.google.com/file/d/1yEw7ZM44Uw7ySRTLHsX4bHL-ra4fnnAO/preview", "type": "gdrive" }, { "name": "Bölüm 11", "url": "https://voe.sx/ykdkl54ihqrc", "type": "voe" }, { "name": "Bölüm 11", "url": "https://video.sibnet.ru/video6152419", "type": "sibnet" }] }
+            { "number": 11, "sources": [{ "name": "Bölüm 11", "url": "https://drive.google.com/file/d/1yEw7ZM44Uw7ySRTLHsX4bHL-ra4fnnAO/preview", "type": "gdrive" }, { "name": "Bölüm 11", "url": "https://voe.sx/ykdkl54ihqrc", "type": "voe" }, { "name": "Bölüm 11", "url": "https://video.sibnet.ru/video6152419", "type": "sibnet" }] },
+            { "number": 12, "sources": [{ "name": "Bölüm 12", "url": "https://drive.google.com/file/d/15_n9ePJ61Q_fqo2jneGHcWKXAq5lg5Pr/preview", "type": "gdrive" }, { "name": "Bölüm 12", "url": "https://voe.sx/4s7oadjn9ae6", "type": "voe" }, { "name": "Bölüm 12", "url": "https://video.sibnet.ru/video6158550", "type": "sibnet" }] }
           ]
         }
       ],
