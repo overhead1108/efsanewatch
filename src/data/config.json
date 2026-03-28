@@ -335,6 +335,43 @@
       ],
       "titleEnglish": "There was a Cute Girl in the Hero’s Party, so I Tried Confessing to Her",
       "titleNative": "勇者パーティーにかわいい子がいたので、告白してみた。"
+    },
+      {
+    "id": "kaya-chan",
+    "searchTitle": "Kaya-chan wa Kowakunai",
+    "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171754-reLzD3298hVv.jpg",
+    "title": "Kaya-chan wa Kowakunai",
+    "description": "Anaokulunda sürekli sorun çıkaran Kaya-chan'ın aslında gizli bir yeteneği vardır: Kimsenin göremediği doğaüstü varlıkları defetmek. Yeni yardımcısıyla birlikte anaokulunun gizemlerini çözerler.",
+    "tags": ["Doğaüstü", "Aksiyon", "Korku", "Komedi"],
+    "seasons": [
+      {
+        "name": "Sezon 1",
+        "episodes": [
+          {
+            "number": 1,
+            "sources": [
+              {
+                "name": "Bölüm 1",
+                "url": "https://drive.google.com/file/d/19E626fRGHQdyG9Kc6dXpgyYWqJiiB0Vc/view?usp=sharing",
+                "type": "gdrive"
+              },
+              {
+                "name": "Bölüm 1",
+                "url": "https://voe.sx/g62trugkaycc",
+                "type": "voe"
+              },
+              {
+                "name": "Bölüm 1",
+                "url": "https://video.sibnet.ru/video6155772",
+                "type": "sibnet"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "titleEnglish": "Kaya-chan Isn't Scary",
+    "titleNative": "カヤちゃんは怖くない"
     }
   ],
   "mangas": [
