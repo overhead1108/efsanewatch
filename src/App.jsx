@@ -100,6 +100,10 @@ function App() {
 
   return (
     <>
+    <div className="top-notice-banner">
+      <span className="icon">!</span>
+      efsanewatch ve efsanemanga 2 Mayıs 2026 tarihinde kapanıyor.
+    </div>
     <div className={`app-container ${viewMode}-mode ${isMobileForced ? 'force-mobile' : ''}`}>
       {/* HEADER */}
       <header className="header">
@@ -107,7 +111,7 @@ function App() {
           <span className="logo-text text-gradient">
             {viewMode === 'manga' ? 'efsanemanga' : 'efsanewatch'}
           </span>
-          <span className="logo-v text-gradient">v2</span>
+          <span className="logo-v text-gradient" style={{ fontSize: '0.65rem', whiteSpace: 'nowrap' }}>kapanıyor</span>
         </div>
 
         <div className="mode-toggle">
@@ -320,7 +324,7 @@ function App() {
           <span className="logo-text text-gradient" style={{ fontSize: "2rem" }}>
             {viewMode === 'manga' ? 'efsanemanga' : 'efsanewatch'}
           </span>
-          <span className="logo-v text-gradient">v2</span>
+          <span className="logo-v text-gradient" style={{ fontSize: '0.65rem', whiteSpace: 'nowrap', marginTop: '10px' }}>kapanıyor</span>
         </div>
         <div style={{ display: "flex", justifyContent: "center", gap: "2rem", flexWrap: "wrap", alignItems: "center" }}>
           <a 
