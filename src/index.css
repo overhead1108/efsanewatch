@@ -205,6 +205,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
+.banner-link {
+  color: inherit;
+  margin-left: 10px;
+  text-decoration: underline;
+  opacity: 0.8;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.banner-link:hover {
+  opacity: 1;
+}
+
 
 .logo:hover {
   transform: scale(1.02);
