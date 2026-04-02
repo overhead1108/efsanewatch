@@ -102,7 +102,12 @@ function App() {
     <>
     <div className="top-notice-banner">
       <span className="icon">!</span>
-      efsanewatch ve efsanemanga 2 Mayıs 2026 tarihinde kapanıyor.
+      <span>
+        efsanewatch ve efsanemanga 2 Mayıs 2026 tarihinde kapanıyor. 
+        <a href="https://github.com/overhead1108/efsanewatch" target="_blank" rel="noopener noreferrer" className="banner-link">
+          daha fazla öğren
+        </a>
+      </span>
     </div>
     <div className={`app-container ${viewMode}-mode ${isMobileForced ? 'force-mobile' : ''}`}>
       {/* HEADER */}
