@@ -126,7 +126,9 @@
                 { "name": "Bölüm 5", "url": "https://drive.google.com/file/d/1CfdraKG0E4noy1ZuKA8EzfW2MrPPa5Od/preview", "type": "gdrive" },
                 { "name": "Bölüm 5", "url": "https://voe.sx/0vayghlgzmsb", "type": "voe" },
                 { "name": "Bölüm 5", "url": "https://video.sibnet.ru/video6153960", "type": "sibnet" },
-              "number": 5,
+            }
+            {
+              "number": 6,
               "sources": [
                 { "name": "Bölüm 6", "url": "https://drive.google.com/file/d/1CfdraKG0E4noy1ZuKA8EzfW2MrPPa5Od/preview", "type": "gdrive" },
                 { "name": "Bölüm 6", "url": "https://voe.sx/hyv6mcgprnaq", "type": "voe" },
